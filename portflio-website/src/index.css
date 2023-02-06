@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --background-Image: url(../src/assets/bgMain.png);
+    --background-Alt: url(../src/assets/bgAlt.png);
+    --color-white: #fff;
+    --color-blue: #606B99; 
+
+
+    --container-width-lg: 75%;
+    --container-width-nd: 85%;
+    --container-width-sm: 90%;
+
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-image: var(--background-Image);
+    background-size: cover;
+    color: var(--color-white);
+    line-height: 1.7;
+
+}
+
+/* general styles */
+
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+
+h1 {
+    font-size: 1.7rem;
+    font-weight: 300;
+    font-family:'Source Code Pro';
+}
+
+h2 {
+    font-size: 6rem;
+    font-weight: 700;
+    font-family:'Source Code Pro';
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family:'Source Code Pro';
+}
+
+
+h4 {
+    font-size: 6.25rem;
+    font-weight: 700;
+    font-family:'Source Code Pro';
+}
+
+h5 {
+    font-size: 4.375rem;
+    font-weight: 700;
+    font-family:'Source Code Pro';
+}
+
+h6 {
+    font-size: 5rem;
+    font-weight: 700;
+    font-family:'Source Code Pro';
+}
+
+
+.line {
+    color: #fff;
+    background: "#fff";
+    border: "none";
+}
+
+section {
+    margin-top: 8rem;
+}
+
+.text-light {
+    color:  var(--color-white);
+}
+
+a {
+    color: #fff;
+}
+
+
+a:hover {
+    color: var(--color-blue);
+}
+
+.navWrapper {
+    background-color:  rgba(179, 185, 211, .4);
+    align-items: center;
+}
+
+.navbtntText {
+    width: max-content;
+    background-color: none;
+    margin-top: 1rem;;
+    display: inline-block;
+    color: var(--color-white);
+    padding: .75rem ;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    transition: all 0ms ease-in;
+}
+
+.boxLanding {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.navbtnImg {
+    width: max-content;
+    background-image:  url(../src/assets/homebtn.png);
+    background-size: cover;
+    background-color: none;
+    background-position: center;
+    display: inline-block;
+    color: var(--color-white);
+    margin-left: 1rem;
+    padding: .75rem ;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    transition: all 0ms ease-in;
+}
+
+
+.btn {
+    width: max-content;
+    margin-right: 1rem;
+    background-color: #fff;
+    margin-top: 1rem;;
+    display: inline-block;
+    color: var(--color-blue);
+    padding: .75rem 1.2rem ;
+    border-radius: 3.25rem;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    transition: all 0ms ease-in;
+}
+
+.btn:hover {
+    background-color: var(--color-blue);
+    color: var(--color-white)
+}
+
+img {
+    display: block;
+    object-fit: cover;
+}
+
+.cloud1Img {
+    height: auto;
+    width: 30%;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
+
+.cloud2Img {
+    height: auto;
+    width: 30%;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+
+.steam1 {
+    
+    height: auto;
+    width: 30%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    margin-top: 4.5%;
+    
+}
+
+.steam2 {
+    
+    height: auto;
+    width: 20%;
+    position: absolute;
+    right: 0%;
+    top: 20%;
+}
+
+/*MEDIA QUEURIES */
+@media screen and (max-width:1024px){
+    .container{
+        width: var(--container-width-nd);
+    }
+
+    section {
+        margin-top: 6rem;
+    }
+}
+
+/*SMALL QUEURIES */
+@media screen and (max-width:600px){
+    .container{
+        width: var(--container-width-sm);
+    }
+
+    section {
+        margin-top: 2rem;
+    }
+}
