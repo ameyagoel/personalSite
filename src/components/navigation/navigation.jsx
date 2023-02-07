@@ -6,7 +6,7 @@ import "./navigation.css"
 
 const navigation = () => {
   return (
-    <div className='navWrapper'>
+    <div className='navWrapper' style={{paddingLeft: '1rem'}}>
       <a className='navbtnImg'></a>
       <a href='#contact' className='navbtntText'>| About |</a>
       <a href='#contact' className='navbtntText'>Portfolio |</a>

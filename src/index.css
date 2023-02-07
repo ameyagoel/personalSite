@@ -129,13 +129,9 @@ a:hover {
     font-weight: 400;
     cursor: pointer;
     border: none;
-    transition: all 0ms ease-in;
 }
 
-.boxLanding {
-    margin-left: 10%;
-    margin-top: 10%;
-}
+
 
 .navbtnImg {
     width: max-content;
@@ -152,7 +148,6 @@ a:hover {
     font-weight: 400;
     cursor: pointer;
     border: none;
-    transition: all 0ms ease-in;
 }
 
 
@@ -168,7 +163,7 @@ a:hover {
     font-weight: 500;
     cursor: pointer;
     border: none;
-    transition: all 0ms ease-in;
+    box-shadow: 0 3px 10px;
 }
 
 .btn:hover {
@@ -181,41 +176,6 @@ img {
     object-fit: cover;
 }
 
-.cloud1Img {
-    height: auto;
-    width: 30%;
-    position: absolute;
-    left: 0%;
-    bottom: 0%;
-}
-
-.cloud2Img {
-    height: auto;
-    width: 30%;
-    position: absolute;
-    right: 0%;
-    bottom: 0%;
-}
-
-.steam1 {
-    
-    height: auto;
-    width: 30%;
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    margin-top: 4.5%;
-    
-}
-
-.steam2 {
-    
-    height: auto;
-    width: 20%;
-    position: absolute;
-    right: 0%;
-    top: 20%;
-}
 
 /*MEDIA QUEURIES */
 @media screen and (max-width:1024px){
