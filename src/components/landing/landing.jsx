@@ -13,12 +13,13 @@ import moon from '../../assets/moon.png'
 import star from '../../assets/star.png'
 
 import Link from '../linkbtn/link'
+import ScrollBar from '../scrollBar/scrollBar'
 
 const Landing = () => {
   return (
-    <header>
+    <div id='land' style={{height:'100vh'}}>
       <Container style={{display:'flex', flexDirection:'row', marginLeft:'0%'}}>
-        <Link/> 
+        <Link /> 
         <Col style= {{marginLeft:'10%'}}>
           <div className="boxLanding">
             <h2> Ameya Goel</h2>
@@ -35,14 +36,22 @@ const Landing = () => {
         <Col >
           <img src={moon} className='moon' />
         </Col>
+        
+        
+        
       </Container>
+      
 
 
 
       <img src={cloud1} className='cloud1Img' />
       <img src={cloud2} className='cloud2Img' />
+      <Container className='scroll'> 
+        
+        <ScrollBar />
+      </Container>
       
-    </header>
+    </div>
   )
 }
 

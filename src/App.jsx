@@ -6,6 +6,7 @@ import Landing from './components/landing/landing.jsx'
 import Link from './components/linkbtn/link.jsx'
 import Navigation from './components/navigation/navigation.jsx'
 import Skills from './components/skills/skills.jsx'
+import ScrollBar from './components/scrollBar/scrollBar.jsx'
 
 
 

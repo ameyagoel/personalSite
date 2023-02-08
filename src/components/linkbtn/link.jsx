@@ -4,7 +4,7 @@ import "./link.css"
 
 const Link = () => {
   return (
-    <Container> 
+    <Container style={{marginTop:'8%'}}> 
     <Col >
     <Row >
       <a className='git'></a> </Row>
@@ -18,7 +18,7 @@ const Link = () => {
       <a className='email' href='mailto:ameyagoel@gmail.com?subject=Contact Inquiry' ></a>
       </Row>
       <Row>
-      <a className='about'></a>
+      <a className='about' href="#about"></a>
       </Row>
       <Row>
       <a className='art'></a>
