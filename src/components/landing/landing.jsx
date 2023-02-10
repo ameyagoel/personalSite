@@ -12,14 +12,14 @@ import steam2 from '../../assets/steam2.png'
 import moon from '../../assets/moon.png'
 import star from '../../assets/star.png'
 
-import Link from '../linkbtn/link'
+import LinkBtn from '../linkbtn/linkbtn'
 import ScrollBar from '../scrollBar/scrollBar'
 
 const Landing = () => {
   return (
-    <div id='land' style={{height:'100vh'}}>
+    <div id='1' style={{height:'100vh'}}>
       <Container style={{display:'flex', flexDirection:'row', marginLeft:'0%'}}>
-        <Link /> 
+        <LinkBtn /> 
         <Col style= {{marginLeft:'10%'}}>
           <div className="boxLanding">
             <h2> Ameya Goel</h2>

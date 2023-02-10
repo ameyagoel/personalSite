@@ -11,13 +11,13 @@ const ScrollBar = () => {
     <Container style={{ margin:'auto', }}>
       <Col  >
       <Row > 
-        <a className='scroll1' href="#land"> </a>
+        <a className='scroll1' href="#1"> </a>
       </Row>
       <Row>
-      <a className='scroll2' href="#about"> </a>
+      <a className='scroll2' href="#2"> </a>
       </Row>
       <Row>
-      <a className='scroll3' href="#skills"> </a>
+      <a className='scroll3' href="#3"> </a>
       </Row>
     
       </Col>

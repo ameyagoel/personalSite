@@ -12,7 +12,7 @@ import music from '../../assets/music.png'
 
 const About = () => {
   return (
-    <div id='about' style={{ backgroundColor: '#fff', minHeight: '100vh' }}>
+    <div id="2" style={{ backgroundColor: '#fff', minHeight: '100vh' }}>
       <Container style={{ marginLeft: '0%' }}>
         {/* <Row style={{ alignItems: 'center', display: 'flex', justifyContent: 'center' }} >
           <img src={star} style={{}} className="starLarge" />

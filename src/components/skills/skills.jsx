@@ -15,7 +15,7 @@ import cloud2 from '../../assets/cloud2.png'
 
 const Skills = () => {
   return (
-    <div id='skills'style={{ maxHeight: '100vh' }}>
+    <div id='3'style={{ maxHeight: '100vh' }}>
       <Container style={{ marginTop: '4rem'}}>
         <Row style={{  justifyContent: 'center', }}>
           <Col xs={.6}>

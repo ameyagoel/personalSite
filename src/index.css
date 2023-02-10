@@ -25,6 +25,10 @@
 
 }
 
+.portfolio {
+    background-image: var(--background-Alt);
+}
+
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
