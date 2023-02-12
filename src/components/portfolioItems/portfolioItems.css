@@ -1,0 +1,55 @@
+.portfolio_container {
+    max-width: 1140px;
+    margin: auto;
+    margin-left: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+.portfolio_card {
+    background: #606B99;
+    padding: 1.3rem 1rem;
+    border-radius: 2.5rem;
+    border-color: #fff;
+    border-style: thick;
+    box-shadow: 10px 10px 8px #2e385c;;
+    
+}
+
+.portfolio_card img{
+    width: 100%;
+    
+}
+
+.portfolio_card h3{
+    padding-top: 1%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.port-btn {
+    text-align: center;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 2rem;
+    width: 50%;
+    
+}
+
+.port-btn a {
+    color: #606B99;
+}
+
+.portfolio_card:hover {
+    background: transparent;
+
+
+}
+
+.item_image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
