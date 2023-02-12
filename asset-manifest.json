@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/ameyagoel/ameyagoel.github.io/static/css/main.fc08af97.css",
-    "main.js": "/ameyagoel/ameyagoel.github.io/static/js/main.248f6a27.js",
-    "static/media/port2.png": "/ameyagoel/ameyagoel.github.io/static/media/port2.522185e4716bf12cee8f.png",
-    "static/media/port1.jpg": "/ameyagoel/ameyagoel.github.io/static/media/port1.901648d56b629a592f7a.jpg",
-    "static/media/bgMain.png": "/ameyagoel/ameyagoel.github.io/static/media/bgMain.6c0024689be3958bfd3e.png",
-    "static/media/bgAlt.png": "/ameyagoel/ameyagoel.github.io/static/media/bgAlt.3ec61e5843fc6ccf1645.png",
-    "static/media/pfp.png": "/ameyagoel/ameyagoel.github.io/static/media/pfp.23959cfd3b735a4ca66c.png",
-    "static/media/Ameya_Goel_Resume.pdf": "/ameyagoel/ameyagoel.github.io/static/media/Ameya_Goel_Resume.a585b873d01e8f327191.pdf",
-    "static/media/skills2.png": "/ameyagoel/ameyagoel.github.io/static/media/skills2.7485002327e0f2496491.png",
-    "static/media/crochet.png": "/ameyagoel/ameyagoel.github.io/static/media/crochet.40699514db51e2b8ac40.png",
-    "static/media/skills3.png": "/ameyagoel/ameyagoel.github.io/static/media/skills3.c943a679ddf36da6661c.png",
-    "static/media/skills1.png": "/ameyagoel/ameyagoel.github.io/static/media/skills1.b85a10afd4ac89f5ec16.png",
-    "static/media/moon.png": "/ameyagoel/ameyagoel.github.io/static/media/moon.497152e0c91234e452aa.png",
-    "static/media/cloud2.png": "/ameyagoel/ameyagoel.github.io/static/media/cloud2.1253356a9040355df178.png",
-    "index.html": "/ameyagoel/ameyagoel.github.io/index.html",
-    "main.fc08af97.css.map": "/ameyagoel/ameyagoel.github.io/static/css/main.fc08af97.css.map",
-    "main.248f6a27.js.map": "/ameyagoel/ameyagoel.github.io/static/js/main.248f6a27.js.map"
+    "main.css": "/static/css/main.4f2e8a76.css",
+    "main.js": "/static/js/main.5878ddf4.js",
+    "static/media/port2.png": "/static/media/port2.522185e4716bf12cee8f.png",
+    "static/media/port1.jpg": "/static/media/port1.901648d56b629a592f7a.jpg",
+    "static/media/bgMain.png": "/static/media/bgMain.6c0024689be3958bfd3e.png",
+    "static/media/bgAlt.png": "/static/media/bgAlt.3ec61e5843fc6ccf1645.png",
+    "static/media/pfp.png": "/static/media/pfp.23959cfd3b735a4ca66c.png",
+    "static/media/Ameya_Goel_Resume.pdf": "/static/media/Ameya_Goel_Resume.a585b873d01e8f327191.pdf",
+    "static/media/skills2.png": "/static/media/skills2.7485002327e0f2496491.png",
+    "static/media/crochet.png": "/static/media/crochet.40699514db51e2b8ac40.png",
+    "static/media/skills3.png": "/static/media/skills3.c943a679ddf36da6661c.png",
+    "static/media/skills1.png": "/static/media/skills1.b85a10afd4ac89f5ec16.png",
+    "static/media/moon.png": "/static/media/moon.497152e0c91234e452aa.png",
+    "static/media/cloud2.png": "/static/media/cloud2.1253356a9040355df178.png",
+    "index.html": "/index.html",
+    "main.4f2e8a76.css.map": "/static/css/main.4f2e8a76.css.map",
+    "main.5878ddf4.js.map": "/static/js/main.5878ddf4.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc08af97.css",
-    "static/js/main.248f6a27.js"
+    "static/css/main.4f2e8a76.css",
+    "static/js/main.5878ddf4.js"
   ]
 }
