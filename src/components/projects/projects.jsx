@@ -54,7 +54,7 @@ const ProjectItem = () => {
                 coding the sprite rendering, user experience elements, NPC dialogue, and
                 level progression
             </h3>
-            <div className='portfolio_container'>
+            <div className='project_container'>
                 <div className='project_card' >
 
 
