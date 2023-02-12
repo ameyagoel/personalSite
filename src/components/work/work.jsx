@@ -29,7 +29,9 @@ const Work = () => {
       }} />
       <h3> Various Games and Projects I have worked on
 </h3>
-      <ButtonPort ></ButtonPort>
+<h3 style={{fontWeight:300, fontSize:'1.4rem '}}> Scroll For More ↓
+</h3>
+
     </div>
   </Col>
   <Col >
