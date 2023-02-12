@@ -11,6 +11,7 @@ import ScrollBar from './components/scrollBar/scrollBar.jsx'
 import Portfolio from './components/portfolio/portfolio.jsx'
 import Home from './pages/home.js'
 import PortfolioPage from './pages/portfolio.js'
+import WorkPage from './pages/work.js'
 
 
 
@@ -20,8 +21,8 @@ const App = () => {
     <div>
       <Routes>
         <Route path="/" element={ <Home /> } />
-        <Route path="/about" element={ <About/> } />
         <Route path="/portfolio" element={ <PortfolioPage/> } />
+        <Route path="/work" element={ <WorkPage/> } />
         </Routes>
     </div>
   )
