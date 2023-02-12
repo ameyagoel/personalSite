@@ -1,0 +1,52 @@
+.header {
+    color: #fff;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.star {
+   margin-top: 3vh;
+}
+
+.skills {
+    width: 18rem;
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+.moon { 
+    width: auto;
+    height: auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-top: 5rem;
+
+}
+
+.cloud3Img {
+    height: auto;
+    width: 100%;
+    left: 0%;
+    margin-top: 8%;
+    align-items: baseline;
+}
+
+.cloud4Img {
+    height: auto;
+    width: 100%;
+    right: 0%;
+    margin-top: 8%;
+    align-items: baseline;
+}
+
+h1 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family:'Source Code Pro';
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 300;
+    font-family:'Source Code Pro';
+}

@@ -25,8 +25,13 @@
 
 }
 
+.portfolio {
+    background-image: var(--background-Alt);
+}
+
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 
 }
 
@@ -71,21 +76,24 @@ h3 {
 
 
 h4 {
-    font-size: 6.25rem;
+    font-size: 5rem;
     font-weight: 700;
+    color: var(--color-blue);
     font-family:'Source Code Pro';
 }
 
 h5 {
-    font-size: 4.375rem;
+    font-size: 3.5rem;
     font-weight: 700;
+    color: var(--color-blue);
     font-family:'Source Code Pro';
 }
 
 h6 {
-    font-size: 5rem;
-    font-weight: 700;
-    font-family:'Source Code Pro';
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--color-blue);
+    font-family:'Open Sans';
 }
 
 
@@ -109,15 +117,11 @@ a {
 
 
 a:hover {
-    color: var(--color-blue);
-}
-
-.navWrapper {
-    background-color:  rgba(179, 185, 211, .4);
-    align-items: center;
+    color: var(--color-white);
 }
 
 .navbtntText {
+    
     width: max-content;
     background-color: none;
     margin-top: 1rem;;
@@ -129,13 +133,13 @@ a:hover {
     font-weight: 400;
     cursor: pointer;
     border: none;
-    transition: all 0ms ease-in;
+    z-index: 4;
 }
 
-.boxLanding {
-    margin-left: 10%;
-    margin-top: 10%;
+.navbtntText:hover {
+    color: var(--color-blue)
 }
+
 
 .navbtnImg {
     width: max-content;
@@ -152,7 +156,7 @@ a:hover {
     font-weight: 400;
     cursor: pointer;
     border: none;
-    transition: all 0ms ease-in;
+    z-index: 4;
 }
 
 
@@ -168,7 +172,7 @@ a:hover {
     font-weight: 500;
     cursor: pointer;
     border: none;
-    transition: all 0ms ease-in;
+    box-shadow: 0 3px 10px;
 }
 
 .btn:hover {
@@ -181,41 +185,6 @@ img {
     object-fit: cover;
 }
 
-.cloud1Img {
-    height: auto;
-    width: 30%;
-    position: absolute;
-    left: 0%;
-    bottom: 0%;
-}
-
-.cloud2Img {
-    height: auto;
-    width: 30%;
-    position: absolute;
-    right: 0%;
-    bottom: 0%;
-}
-
-.steam1 {
-    
-    height: auto;
-    width: 30%;
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    margin-top: 4.5%;
-    
-}
-
-.steam2 {
-    
-    height: auto;
-    width: 20%;
-    position: absolute;
-    right: 0%;
-    top: 20%;
-}
 
 /*MEDIA QUEURIES */
 @media screen and (max-width:1024px){

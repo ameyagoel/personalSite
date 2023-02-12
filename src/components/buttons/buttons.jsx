@@ -7,7 +7,7 @@ const Button = () => {
   return (
     <div className='buttons'>
       <a href={Resume} download className='btn'> Download Resume</a>
-      <a href='#contact' className='btn'> Contact Me</a>
+      <a href='mailto:ameyagoel@gmail.com?subject=Contact Inquiry' className='btn'> Contact Me</a>
     </div>
   )
 }

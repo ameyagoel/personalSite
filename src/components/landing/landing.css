@@ -1,0 +1,48 @@
+
+.cloud1Img {
+    height: auto;
+    width: 30%;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
+
+.cloud2Img {
+    height: auto;
+    width: 30%;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+
+.steam1 {
+    
+    height: auto;
+    width: 30%;
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    margin-top: 4.5%;
+    
+}
+
+.steam2 {
+    
+    height: auto;
+    width: 20%;
+    position: absolute;
+    right: 0%;
+    top: 20%;
+}
+
+.boxLanding {
+    margin-left: .5%;
+    margin-top: 30%;
+}
+
+.moon {
+    margin-top:35%;
+    height: 10rem;
+    width: 10rem;
+}
+
