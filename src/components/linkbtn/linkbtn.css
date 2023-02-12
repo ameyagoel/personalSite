@@ -1,0 +1,96 @@
+.git {
+    background-image:  url(../../assets/github.png);
+    width: 4rem;
+    height: 4rem;
+    background-size: contain;
+    background-color: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: .75rem ;
+    cursor: pointer;
+    transition: all 0ms ease-in;
+}
+
+.insta {
+    background-image:  url(../../assets/insta.png);
+    width: 4rem;
+    height: 4rem;
+    background-size: contain;
+    background-color: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+
+    padding: .75rem ;
+    cursor: pointer;
+    transition: all 0ms ease-in;
+}
+
+.linkd {
+    background-image:  url(../../assets/linkd.png);
+    width: 4rem;
+    height: 4rem;
+    background-size: contain;
+    background-color: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+
+    padding: .75rem ;
+    cursor: pointer;
+    transition: all 0ms ease-in;
+}
+
+.email {
+    background-image:  url(../../assets/email.png);
+    width: 4rem;
+    height: 4rem;
+    background-size: contain;
+    background-color: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: .75rem ;
+    cursor: pointer;
+    transition: all 0ms ease-in;
+}
+
+.about {
+    background-image:  url(../../assets/about.png);
+    width: 4rem;
+    height: 4rem;
+
+    background-size: contain;
+    background-color: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: .75rem ;
+    cursor: pointer;
+    transition: all 0ms ease-in;
+}
+
+.art {
+    width: 4rem;
+    height: 4rem;
+    background-image:  url(../../assets/art.png);
+    background-size: contain;
+    background-color: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: .75rem ;
+    cursor: pointer;
+    transition: all 0ms ease-in;
+}
+
+.row {
+    
+}
