@@ -1,0 +1,89 @@
+.portfolio_container {
+    max-width: 1300px;
+    margin: auto;
+    margin-left: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+.project_card {
+    background: #606B99;
+    justify-items: center;
+    padding: 1.3rem 1rem;
+    border-radius: 2.5rem;
+    border-color: #fff;
+    border-style: thick;
+    box-shadow: 10px 10px 8px #2e385c;
+    
+}
+
+.project_card .item_image{
+    width: 100%;
+    
+}
+
+.project_card h3{
+    padding-top: 1%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+.project_card .next {
+    
+    margin-top: 1rem;
+   width: 3rem;
+   height: 3rem;
+}
+
+.project_card .prev {
+   
+    margin-top: 1rem;
+    width: 3rem;
+    height: 3rem;
+ }
+
+ .project_card .next:hover {
+    
+
+    opacity: .5;
+    transform: scale(1.2);
+}
+
+.project_card .prev:hover {
+    
+
+
+    opacity: .5;
+    transform: scale(1.2);
+}
+
+.item_image {
+    margin: auto;
+    padding: auto;
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.item_image img{
+    
+    margin: auto;
+    padding: auto;
+    height: auto;
+    width: 30rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.item_image video{
+    margin: auto;
+    padding: auto;
+    height: auto;
+    width: 30rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
