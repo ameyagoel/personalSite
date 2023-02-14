@@ -142,42 +142,42 @@ const PortfolioItem = () => {
             <div className='portfolio_container'>
                 <div className='portfolio_card'>
                     <img src={port1} className='item_image' />
-                    <h3> Title </h3>
+                    <h3> City Graffiti </h3>
                     <div className='port-btn'>
                         <a onClick={() => handleOpenModal(0)}> Zoom In</a>
                     </div>
                 </div>
                 <div className='portfolio_card'>
                     <img src={port3} className='item_image' />
-                    <h3> Title </h3>
+                    <h3> City Skyline </h3>
                     <div className='port-btn'>
                         <a onClick={() => handleOpenModal(2)}> Zoom In</a>
                     </div>
                 </div>
                 <div className='portfolio_card'>
                     <img src={port4} className='item_image' />
-                    <h3> Title </h3>
+                    <h3> Follow You to the Stars </h3>
                     <div className='port-btn'>
                         <a onClick={() => handleOpenModal(3)}> Zoom In</a>
                     </div>
                 </div>
                 <div className='portfolio_card'>
                     <img src={port5} className='item_image' />
-                    <h3> Title </h3>
+                    <h3> Whale Watching </h3>
                     <div className='port-btn'>
                         <a onClick={() => handleOpenModal(4)}> Zoom In</a>
                     </div>
                 </div>
                 <div className='portfolio_card'>
                     <img src={port6} className='item_image' />
-                    <h3> Title </h3>
+                    <h3> Spray Painting the Stars </h3>
                     <div className='port-btn'>
                         <a onClick={() => handleOpenModal(5)}> Zoom In</a>
                     </div>
                 </div>
                 <div className='portfolio_card'>
                     <img src={port10} className='item_image' />
-                    <h3> Title </h3>
+                    <h3> Spaced-Out </h3>
                     <div className='port-btn'>
                         <a onClick={() => handleOpenModal(9)}> Zoom In</a>
                     </div>
@@ -191,28 +191,28 @@ const PortfolioItem = () => {
                 </div>
                 <div className='portfolio_card'>
                     <img src={port12} className='item_image' />
-                    <h3> Title </h3>
+                    <h3> Lighting Study </h3>
                     <div className='port-btn'>
                         <a onClick={() => handleOpenModal(11)}> Zoom In</a>
                     </div>
                 </div>
                 <div className='portfolio_card'>
                     <img src={port14} className='item_image' />
-                    <h3> Title </h3>
+                    <h3> First Snow </h3>
                     <div className='port-btn'>
                         <a onClick={() => handleOpenModal(13)}> Zoom In</a>
                     </div>
                 </div>
                 <div className='portfolio_card'>
                     <img src={port15} className='item_image' />
-                    <h3> Title </h3>
+                    <h3> Take a breath </h3>
                     <div className='port-btn'>
                         <a onClick={() => handleOpenModal(14)}> Zoom In</a>
                     </div>
                 </div>
                 <div className='portfolio_card'>
                     <img src={port7} className='item_image' />
-                    <h3> Title </h3>
+                    <h3> Birds of the Stars </h3>
                     <div className='port-btn'>
                         <a onClick={() => handleOpenModal(6)}> Zoom In</a>
                     </div>
@@ -232,49 +232,49 @@ const PortfolioItem = () => {
             <div className='portfolio_container'>
                 <div className='portfolio_card'>
                     <img src={design1} className='item_image' />
-                    <h3> Title </h3>
+                    <h3> Old School Travel Poster </h3>
                     <div className='port-btn'>
                         <a onClick={() => handleOpenModal(15)}> Zoom In</a>
                     </div>
                 </div>
                 <div className='portfolio_card'>
                     <img src={design4} className='item_image' />
-                    <h3> Title </h3>
+                    <h3> UC Riverside Taiko Concert 2022 Logo </h3>
                     <div className='port-btn'>
                         <a onClick={() => handleOpenModal(18)}> Zoom In</a>
                     </div>
                 </div>
                 <div className='portfolio_card'>
                     <img src={design5} className='item_image' />
-                    <h3> Title </h3>
+                    <h3> Quick Draw Archery Hoodie  </h3>
                     <div className='port-btn'>
                         <a onClick={() => handleOpenModal(19)}> Zoom In</a>
                     </div>
                 </div>
                 <div className='portfolio_card'>
                     <img src={design6} className='item_image' />
-                    <h3> Title </h3>
+                    <h3> AUS Instagram Post </h3>
                     <div className='port-btn'>
                         <a onClick={() => handleOpenModal(20)}> Zoom In</a>
                     </div>
                 </div>
                 <div className='portfolio_card'>
                     <img src={design7} className='item_image' />
-                    <h3> Title </h3>
+                    <h3> AUS Instagram Post </h3>
                     <div className='port-btn'>
                         <a onClick={() => handleOpenModal(21)}> Zoom In</a>
                     </div>
                 </div>
                 <div className='portfolio_card'>
                     <img src={design3} className='item_image' />
-                    <h3> Title </h3>
+                    <h3> Expenses Layout Practice </h3>
                     <div className='port-btn'>
                         <a onClick={() => handleOpenModal(17)}> Zoom In</a>
                     </div>
                 </div>
                 <div className='portfolio_card'>
                     <img src={loading} className='item_image' />
-                    <h3> Title </h3>
+                    <h3> Flight UI Loading Screen </h3>
                     <div className='port-btn'>
                         <a onClick={() => handleOpenModal(22)}> Zoom In</a>
                     </div>

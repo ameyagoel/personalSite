@@ -6,8 +6,6 @@ const Link = () => {
   return (
     <Container style={{marginTop:'8%'}}> 
     <Col >
-    <Row >
-      <a className='git'></a> </Row>
       <Row>
       <a className='insta' href='https://www.instagram.com/meylatte/'></a>
       </Row>
