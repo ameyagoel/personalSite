@@ -65,7 +65,9 @@ const ProjectItem = () => {
 
     return (
         <div id="2" >
+            <div style={{display: 'flex'}}> 
             <h4 style={{ color: 'white', padding: ' 2rem 0rem 0rem 2rem' }}> Candy Rush </h4>
+            </div>
             <hr className='line' style={{
                 height: '.1875rem', width: '40rem',
                 background: "#fff",
@@ -104,8 +106,9 @@ const ProjectItem = () => {
 
 
             </div>
-
-            <h4 style={{ color: 'white', padding: ' 2rem 0rem 0rem 2rem' }}> Latte's Cafe Dress UP</h4>
+            <div style={{display: 'flex'}}> 
+            <h4 id='3' style={{ color: 'white', padding: ' 2rem 0rem 0rem 2rem' }}> Latte's Cafe Dress UP</h4>
+            </div>
             <hr className='line' style={{
                 height: '.1875rem', width: '40rem',
                 background: "#fff",
@@ -113,8 +116,8 @@ const ProjectItem = () => {
                 marginLeft: '2rem'
             }} />
             <h3 style={{ fontSize: '1.7rem', color: 'white', padding: '1rem 0rem 1rem 2rem' }}> Adobe Animate • HTML • Javascript </h3>
+
             <h3 style={{ fontWeight: '400', width: '60%', fontSize: '1.2rem', color: 'white', padding: '0rem 0rem 2rem 2rem' }}>  A simple dress up game I made for fun with a character based off of a cafe latte. This was a solo project in which I did all the art, animation, UI, and coding
-                level progression
             </h3>
             <div className='project_container'>
                 <div className='project_card' >
@@ -126,18 +129,15 @@ const ProjectItem = () => {
                     <div style={{ justifyContent:'center', display: 'flex' }}>
                         <img onClick={prevSlideDress} src={prev} className='prev' />
                         <img onClick={nextSlideDress} src={next} className='next' />
-
                     </div>
-                    <h3> UI Screens </h3>
-                </div>
-                <div className='project_card' >
+                    <div  style={{ justifyContent:'center', display: 'flex' }}> 
 
-
-                    <div className='item_image'style={{ justifyContent:'center', display: 'flex' }}>
-                        <video controls autostart autoPlay src={Video} type="video/mp4" />
-                       
+                    <a style={{textAlign:'center'}} className='btn' href='https://lattes-dress-up.vercel.app/' > Play Game </a>
                     </div>
-                    <h3> Demo </h3>
+                    
+
+                    
+
                 </div>
 
 

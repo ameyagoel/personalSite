@@ -27,7 +27,8 @@
 
 .portfolio_card h3{
     padding-top: 1%;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin: .3rem;
     text-align: center;
 }
 
