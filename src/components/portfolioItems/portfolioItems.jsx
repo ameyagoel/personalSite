@@ -27,6 +27,7 @@ import design4 from '../../assets/design4.png'
 import design5 from '../../assets/design5.png'
 import design6 from '../../assets/design6.png'
 import design7 from '../../assets/design7.png'
+import loading from '../../assets/loading.gif'
 import x from '../../assets/xicon.png'
 
 
@@ -99,6 +100,9 @@ const PortfolioItem = () => {
         },
         {
             img: design7
+        },
+        {
+            img: loading
         }
     ]
 
@@ -266,6 +270,13 @@ const PortfolioItem = () => {
                     <h3> Title </h3>
                     <div className='port-btn'>
                         <a onClick={() => handleOpenModal(17)}> Zoom In</a>
+                    </div>
+                </div>
+                <div className='portfolio_card'>
+                    <img src={loading} className='item_image' />
+                    <h3> Title </h3>
+                    <div className='port-btn'>
+                        <a onClick={() => handleOpenModal(22)}> Zoom In</a>
                     </div>
                 </div>
             </div>
