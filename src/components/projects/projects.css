@@ -10,6 +10,7 @@
 }
 
 .project_card {
+    max-height: 38rem;
     background: #606B99;
     justify-items: center;
     padding: 1.3rem 1rem;

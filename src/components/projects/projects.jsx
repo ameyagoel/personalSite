@@ -75,7 +75,7 @@ const ProjectItem = () => {
                 marginLeft: '2rem'
             }} />
             <h3 style={{ fontSize: '1.7rem', color: 'white', padding: '1rem 0rem 1rem 2rem' }}> Mono Games • C# • Platformer </h3>
-            <h3 style={{ fontWeight: '400', width: '60%', fontSize: '1.2rem', color: 'white', padding: '0rem 0rem 2rem 2rem' }}>  A Game I made in a team of four in my first year of college
+            <h3 style={{ fontWeight: '400', width: '60%', fontSize: '1.2rem', color: 'white', padding: '0rem 0rem 1rem 2rem' }}>  A Game I made in a team of four in my first year of college
                 I was responsible for UI design, asset and environment design, as well as
                 coding the sprite rendering, user experience elements, NPC dialogue, and
                 level progression
@@ -117,7 +117,7 @@ const ProjectItem = () => {
             }} />
             <h3 style={{ fontSize: '1.7rem', color: 'white', padding: '1rem 0rem 1rem 2rem' }}> Adobe Animate • HTML • Javascript </h3>
 
-            <h3 style={{ fontWeight: '400', width: '60%', fontSize: '1.2rem', color: 'white', padding: '0rem 0rem 2rem 2rem' }}>  A simple dress up game I made for fun with a character based off of a cafe latte. This was a solo project in which I did all the art, animation, UI, and coding
+            <h3 style={{ fontWeight: '400', width: '60%', fontSize: '1.15rem', color: 'white', padding: '0rem 0rem 1rem 2rem' }}>  A simple dress up game I made for fun with a character based off of a cafe latte. This was a solo project in which I did all the art, animation, UI, and coding
             </h3>
             <div className='project_container'>
                 <div className='project_card' >
