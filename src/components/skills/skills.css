@@ -6,6 +6,7 @@
 
 .star {
    margin-top: 3vh;
+   margin-left: auto;
 }
 
 .skills {
@@ -49,4 +50,55 @@ h2 {
     font-size: 1rem;
     font-weight: 300;
     font-family:'Source Code Pro';
+}
+
+
+/*MEDIA QUEURIES */
+@media screen and (max-width:1024px) {
+    .header {
+        margin-top: 0;
+        font-size: 6vh;
+    }
+    .skills {
+        max-width: 30%;
+    }
+    .moon {
+        max-width: 48vh;
+        height: auto;
+        margin-top: .5rem;
+    }
+    
+
+}
+
+/*SMALL QUEURIES */
+@media screen and (max-width:600px) {
+    .header {
+        margin-left: 0rem;
+        font-size:5vh;
+        text-align: center;
+    }
+    .skill {
+        display: flex;
+        flex-direction: column;
+        align-items:first baseline;
+        
+    }
+    .skills {
+        max-width: 20vh;
+        margin-left: 4rem;
+    }
+    .star {
+        margin-top: 2vh;
+        margin-left: 0rem;
+    }
+    .moon {
+        display: none;
+    }
+    .cloud3Img {
+        display: none;
+    }
+    .cloud4Img {
+        display: none;
+    }
 }

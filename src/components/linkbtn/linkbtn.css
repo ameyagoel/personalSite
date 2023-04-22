@@ -94,3 +94,34 @@
 .row {
     
 }
+
+/* media queries */
+/*MEDIA QUEURIES */
+@media screen and (max-width:1024px){
+    .socials{
+       height: 2vh;
+    }
+}
+
+/*SMALL QUEURIES */
+@media screen and (max-width:600px){
+    .socials {
+        margin-left: 0%;
+    }
+    .art {
+        height: 5vh;
+        margin-left: 0%;
+    }
+    .insta {
+        height: 5vh;
+        margin-left: 0%;
+    }
+    .linkd {
+        height: 5vh;
+        margin-left: 0%;
+    }
+    .email {
+        height: 5vh;
+        margin-left: 0%;
+    }
+}

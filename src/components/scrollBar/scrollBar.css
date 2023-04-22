@@ -67,3 +67,10 @@
 a:hover {
     border-color: var(--color-white);
 }
+
+/*SMALL QUEURIES */
+@media screen and (max-width:600px) {
+    .scroll {
+        display: none;
+    }
+}

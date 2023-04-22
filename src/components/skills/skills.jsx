@@ -15,33 +15,26 @@ import cloud2 from '../../assets/cloud2.png'
 
 const Skills = () => {
   return (
-    <div id='3'style={{ maxHeight: '100vh' }}>
+    <div id='3'style={{ maxHeight: '110vh' }}>
       <Container style={{ marginTop: '4rem'}}>
         <Row style={{  justifyContent: 'center', }}>
-          <Col xs={.6}>
+          <Col xs={1.5} sm={1.5} lg={.6}>
             <img src={star} className='star' />
           </Col>
-          <Col sm={2} >
+          <Col xs={4.5}sm={3.5} lg={2} >
             <h5 className='header'> Skills </h5>
           </Col>
-          <Col xs={.6} style={{ marginLeft: '1rem' }}>
+          <Col xs={1}sm={1} lg={.6} style={{ marginLeft: '1rem'}}>
             <img src={star} className='star' />
           </Col>
 
         </Row>
       </Container>
-      <Container style={{ }}>
-        <Row>
-          <Col>
-            <img src={skills1} className='skills' />
-          </Col>
-          <Col>
-            <img src={skills2} className='skills' />
-          </Col>
-          <Col>
-            <img src={skills3} className='skills' />
-          </Col>
-        </Row>
+      <Container className='skill' style={{display:'flex'}}>
+      <img src={skills1} className='skills' />
+      <img src={skills2} className='skills' />
+      <img src={skills3} className='skills' />
+     
 
 
         
@@ -49,13 +42,13 @@ const Skills = () => {
       </Container>
       <Row style={{justifyContent: 'center', marginTop:'1.3rem'}}> 
         
-      <Col sm={4}> 
+      <Col sm={3}lg={4}> 
         <img src={cloud1} className='cloud3Img' />
       </Col>
-      <Col sm={4}> 
+      <Col  sm={6}lg={4}> 
       <img  src={moon} className='moon' />
       </Col>
-      <Col sm={4}> 
+      <Col sm={3}lg={4}> 
       <img src={cloud2} className='cloud4Img' /> 
       </Col>
       </Row>

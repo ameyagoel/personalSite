@@ -1,4 +1,3 @@
-
 .cloud1Img {
     height: auto;
     width: 30%;
@@ -16,18 +15,18 @@
 }
 
 .steam1 {
-    
+
     height: auto;
     width: 30%;
     position: absolute;
     left: 0%;
     top: 10%;
     margin-top: 4.5%;
-    
+
 }
 
 .steam2 {
-    
+
     height: auto;
     width: 20%;
     position: absolute;
@@ -41,8 +40,95 @@
 }
 
 .moon {
-    margin-top:35%;
+    margin-top: 35%;
     height: 10rem;
     width: 10rem;
 }
 
+/*MEDIA QUEURIES */
+@media screen and (max-width:1024px) {
+    .land {
+        max-height: 65vh;
+    }
+
+    .boxLanding {
+        margin-top: 15vh;
+        width: 60vh;
+
+    }
+
+    .boxLanding h2 {
+        font-size: 10vh;
+    }
+
+    .boxLanding h3 {
+        font-size: 3.4vh;
+        width: 60vh;
+    }
+
+    .boxLanding h1 {
+        font-size: 3.5vh;
+    }
+
+    .moon {
+        max-height: 18vh;
+    }
+
+    .line {
+        max-width: 60vh;
+    }
+
+    .cloud1Img {
+        position: absolute;
+        left: 0%;
+        bottom: 35%;
+    }
+
+    .cloud2Img {
+        bottom: 35%;
+    }
+}
+
+/*SMALL QUEURIES */
+@media screen and (max-width:600px) {
+    .land {
+        max-height: 50vh
+    }
+
+    .boxLanding {
+        margin-top: 15vh;
+        width: 60vh;
+
+    }
+
+    .boxLanding h2 {
+        font-size: 5vh;
+    }
+
+    .boxLanding h3 {
+        font-size: 2vh;
+        width: 60vh;
+    }
+
+    .boxLanding h1 {
+        font-size: 2vh;
+    }
+
+    .moon {
+        display: none;
+    }
+
+    .line {
+        max-width: 33vh;
+    }
+
+    .cloud1Img {
+        position: absolute;
+        left: 0%;
+        bottom: 50%;
+    }
+
+    .cloud2Img {
+        bottom: 50%;
+    }
+}

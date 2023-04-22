@@ -1,0 +1,21 @@
+/*MEDIA QUEURIES */
+@media screen and (max-width:1024px){
+    .container{
+        width: var(--container-width-nd);
+    }
+
+    section {
+        margin-top: 6rem;
+    }
+}
+
+/*SMALL QUEURIES */
+@media screen and (max-width:600px){
+    .container{
+        width: var(--container-width-sm);
+    }
+
+    section {
+        margin-top: 2rem;
+    }
+}

@@ -8,7 +8,7 @@ import { Container, Row, Col } from 'react-grid-system'
 
 const ScrollBar = () => {
   return (
-    <Container style={{ margin:'auto', }}>
+    <Container className='scroll' style={{ margin:'auto', }}>
       <Col  >
       <Row > 
         <a className='scroll1' href="#1"> </a>

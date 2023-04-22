@@ -29,3 +29,81 @@
     margin-left: 6rem;
     text-align: center;
 }
+
+
+/*MEDIA QUEURIES */
+@media screen and (max-width:1024px) {
+    .pfp {
+        min-width: 110%;
+    }
+    .aboutSect h5 {
+        margin-top: 3%;
+        font-size: 6vh;
+    }
+    .aboutSect h4 {
+       
+        font-size: 5vh;
+    }
+    .aboutSect h6 {
+        max-width: 60vh;
+        font-size: 2vh;
+    }
+    .border {
+        max-width: 40rem;
+    }
+    .inters {
+        padding-left: 10%;
+    }
+    .interest {
+        height: 3.8rem;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+    .interestNote {
+        max-width:  15vh;
+        color: #606B99;
+        font-size: 1rem;
+        margin-left: 1rem;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+}
+
+/*SMALL QUEURIES */
+@media screen and (max-width:600px) {
+    .pfp {
+        min-width: 30%;
+        width: 30vh;
+        margin-left: 2%;
+        padding-left: 0;
+    }
+    .aboutSect h5 {
+        margin-top: 3%;
+        font-size: 6vh;
+    }
+    .aboutSect h4 {
+        font-size: 5vh;
+    }
+    .aboutSect h6 {
+        max-width: 35vh;
+        font-size: 2vh;
+    }
+    .border {
+        display: none;
+    }
+    .inters {
+        padding-left: 0%;
+    }
+    .interest {
+        height: 3.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .interestNote {
+        max-width:  15vh;
+        color: #606B99;
+        font-size: 1rem;
+        text-align: center;
+    }
+}
