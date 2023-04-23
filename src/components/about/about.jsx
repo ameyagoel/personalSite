@@ -12,7 +12,7 @@ import music from '../../assets/music.png'
 
 const About = () => {
   return (
-    <div id="2" style={{ backgroundColor: '#fff', minHeight: '100vh' }}>
+    <div id="2" style={{ backgroundColor: '#fff', minHeight: '100vh' , overflow: 'hidden'}}>
       <Container style={{ marginLeft: '0%' }}>
         {/* <Row style={{ alignItems: 'center', display: 'flex', justifyContent: 'center' }} >
           <img src={star} style={{}} className="starLarge" />
@@ -24,7 +24,7 @@ const About = () => {
               <img src={pfp} className='pfp' />
               </Col>
               <Col sm={6} lg={2}>
-            <Container className='abttext' style={{ width:"80vh",paddingTop: '10%' }}>
+            <Container className='abttext' style={{ width:"60vh",paddingTop: '10%' }}>
               <h4 style={{ textAlign: 'left' }}> About Me </h4>
               <h6 style={{ textAlign: 'left', width: '45rem'}}> Hi! I'm Ameya Goel. I am an illustrator, designer, and developer from Denver, Colorado. I am currently studying computer science with a focus on UI/UX and design at the University of British Colombia in Vancouver, BC. I have been doing freelance design work since high school and am always looking to grow and improve my skills as both a designer and a developer! </h6>
             </Container>
@@ -32,7 +32,7 @@ const About = () => {
 
             </Row>
             
-            <Row className="interestRow"style={{display: 'flex'}}>
+            <Row className="interestRow"style={{}}>
               <Col  sm={6} lg={11} >
                 <h5 style={{ marginLeft: 0, textAlign: 'left' }}> Interests </h5>
                 

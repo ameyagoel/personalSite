@@ -45,25 +45,26 @@
         font-size: 5vh;
     }
     .aboutSect h6 {
-        max-width: 60vh;
+        max-width: 50vh;
         font-size: 2vh;
     }
     .border {
-        max-width: 40rem;
+        max-width: 30rem;
     }
     .inters {
         padding-left: 10%;
+        max-width: 70vh;
     }
     .interest {
-        height: 3.8rem;
-        margin-left: 1rem;
+        height: 5rem;
+        margin-left: 2rem;
         margin-bottom: 1rem;
     }
     .interestNote {
         max-width:  15vh;
         color: #606B99;
         font-size: 1rem;
-        margin-left: 1rem;
+        margin-left: 3rem;
         text-align: center;
         padding-bottom: 1rem;
     }
@@ -72,6 +73,9 @@
 
 /*SMALL QUEURIES */
 @media screen and (max-width:600px) {
+    .abttext{
+        max-width: 35vh;
+    }
     .pfp {
         min-width: 30%;
         width: 30vh;

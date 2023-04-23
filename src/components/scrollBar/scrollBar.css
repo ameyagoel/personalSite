@@ -71,6 +71,8 @@ a:hover {
 /*SMALL QUEURIES */
 @media screen and (max-width:600px) {
     .scroll {
+        left:0%;
         display: none;
+
     }
 }

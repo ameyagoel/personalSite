@@ -17,7 +17,7 @@ import ScrollBar from '../scrollBar/scrollBar'
 
 const Landing = () => {
   return (
-    <div id='1' className="land" style={{height:'100vh'}}>
+    <div id='1' className="land" style={{height:'100vh',overflow: 'hidden'}}>
       <Container style={{display:'flex', flexDirection:'row', marginLeft:'0%'}}>
         <LinkBtn /> 
         <Col style= {{marginLeft:'10%'}}>

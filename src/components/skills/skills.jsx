@@ -15,7 +15,7 @@ import cloud2 from '../../assets/cloud2.png'
 
 const Skills = () => {
   return (
-    <div id='3'style={{ maxHeight: '110vh' }}>
+    <div id='3'style={{ maxHeight: '110vh', overflow: 'hidden' }}>
       <Container style={{ marginTop: '4rem'}}>
         <Row style={{  justifyContent: 'center', }}>
           <Col xs={1.5} sm={1.5} lg={.6}>
@@ -30,7 +30,7 @@ const Skills = () => {
 
         </Row>
       </Container>
-      <Container className='skill' style={{display:'flex'}}>
+      <Container className='skill' style={{display:'flex', justifyContent:'center'}}>
       <img src={skills1} className='skills' />
       <img src={skills2} className='skills' />
       <img src={skills3} className='skills' />
