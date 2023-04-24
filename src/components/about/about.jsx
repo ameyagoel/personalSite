@@ -12,35 +12,40 @@ import music from '../../assets/music.png'
 
 const About = () => {
   return (
-    <div id="2" style={{ backgroundColor: '#fff', minHeight: '100vh' }}>
+    <div id="2" style={{ backgroundColor: '#fff', minHeight: '100vh' , overflow: 'hidden'}}>
       <Container style={{ marginLeft: '0%' }}>
         {/* <Row style={{ alignItems: 'center', display: 'flex', justifyContent: 'center' }} >
           <img src={star} style={{}} className="starLarge" />
         </Row> */}
-        <Row >
-          <Col style={{ paddingLeft: '10%', paddingTop: '10%', }} md={5}>
-            <Container style={{ alignItems: 'center', display: 'flex', justifyContent: 'center' }}>
+        <Row className='aboutSect' >
+          <Col md={6} lg={5} style={{ paddingLeft: '10%', paddingTop: '10%', }} >
+            <Row style={{  }}>
+              <Col sm={5} lg={10}>
               <img src={pfp} className='pfp' />
-            </Container>
-            <Row style={{display: 'flex'}}>
-              <Col md={11} >
-                <h5 style={{ marginLeft: 0, textAlign: 'left' }}> Interests </h5>
-                
               </Col>
-              <Col md={1}>
-                <img src={border} style={{width:'45rem', marginTop: '2rem'}}/>
-              </Col>
-              
-            </Row>
-          </Col>
-          <Col md={7}>
-            <Container style={{ paddingTop: '10%' }}>
+              <Col sm={6} lg={2}>
+            <Container className='abttext' style={{ width:"60vh",paddingTop: '10%' }}>
               <h4 style={{ textAlign: 'left' }}> About Me </h4>
               <h6 style={{ textAlign: 'left', width: '45rem'}}> Hi! I'm Ameya Goel. I am an illustrator, designer, and developer from Denver, Colorado. I am currently studying computer science with a focus on UI/UX and design at the University of British Colombia in Vancouver, BC. I have been doing freelance design work since high school and am always looking to grow and improve my skills as both a designer and a developer! </h6>
             </Container>
           </Col>
+
+            </Row>
+            
+            <Row className="interestRow"style={{}}>
+              <Col  sm={6} lg={11} >
+                <h5 style={{ marginLeft: 0, textAlign: 'left' }}> Interests </h5>
+                
+              </Col>
+              <Col sm={6} lg={1} >
+                <img src={border} className='border'style={{width:'45rem', marginTop: '2rem'}}/>
+              </Col>
+              
+            </Row>
+          </Col>
+          
         </Row>
-        <Row style={{ paddingLeft: '10%', alignItems:'baseline'}} >
+        <Row className='inters' style={{ paddingLeft: '5%', alignItems:'baseline'}} >
           <Col style={{alignItems:'center',  }} > 
               <Row>
               <img src={draw} className='interest' />

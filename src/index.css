@@ -163,7 +163,7 @@ a:hover {
 .btn {
     width: max-content;
     margin-right: 1rem;
-    background-color: #fff;
+    background-color: white;
     margin-top: 1rem;;
     display: inline-block;
     color: var(--color-blue);
@@ -201,9 +201,14 @@ img {
 @media screen and (max-width:600px){
     .container{
         width: var(--container-width-sm);
+        width: fit-content;
     }
 
     section {
         margin-top: 2rem;
+    }
+    .btn {
+        font-size: 1.5vh;
+        width: max-content;
     }
 }

@@ -4,9 +4,8 @@ import "./linkbtn.css"
 
 const Link = () => {
   return (
-    <Container style={{marginTop:'8%'}}> 
-    <Col >
-      <Row>
+    <Col className='socials' style={{marginTop:'10vh'}}>
+      <Row >
       <a className='insta' href='https://www.instagram.com/meylatte/'></a>
       </Row>
       <Row>
@@ -21,7 +20,6 @@ const Link = () => {
       <Row>
       </Row>
       </Col>
-      </Container>
 
   )
 }
