@@ -131,14 +131,14 @@ const PortfolioItem = () => {
 
                 </div>
             }
-            <h4 style={{ color: 'white', padding: ' 2rem 0rem 0rem 2rem' }}> Illustration </h4>
+            <h4 className='ill' style={{ color: 'white', padding: ' 2rem 0rem 0rem 2rem' }}> Illustration </h4>
             <hr className='line' style={{
                 height: '.1875rem', width: '40rem',
                 background: "#fff",
                 border: "none",
                 marginLeft: '2rem'
             }} />
-            <h3 style={{ fontSize:'1.7rem',color: 'white', padding: '1rem 0rem 2rem 2rem' }}> Paint Tool Sai • Procreate • 2019-2023 </h3>
+            <h3 className='info' style={{color: 'white', padding: '1rem 0rem 2rem 2rem' }}> Paint Tool Sai • Procreate • 2019-2023 </h3>
             <div className='portfolio_container'>
                 <div className='portfolio_card'>
                     <img src={port1} className='item_image' />
@@ -184,7 +184,7 @@ const PortfolioItem = () => {
                 </div>
                 <div className='portfolio_card'>
                     <img src={port13} className='item_image' />
-                    <h3> Title </h3>
+                    <h3> Moonlight </h3>
                     <div className='port-btn'>
                         <a onClick={() => handleOpenModal(12)}> Zoom In</a>
                     </div>
@@ -219,14 +219,14 @@ const PortfolioItem = () => {
                 </div>
             </div>
 
-            <h4 id='3' style={{ color: 'white', padding: ' 2rem 0rem 0rem 2rem' }}> Design </h4>
+            <h4 id='3' className='ill' style={{ color: 'white', padding: ' 2rem 0rem 0rem 2rem' }}> Design </h4>
             <hr className='line' style={{
                 height: '.1875rem', width: '40rem',
                 background: "#fff",
                 border: "none",
                 marginLeft: '2rem'
             }} />
-            <h3 style={{ fontSize:'1.7rem',color: 'white', padding: '1rem 0rem 2rem 2rem' }}> Adobe Illustrator • Adobe Animate • Procreate • Paint Tool Sai • 2019-2022
+            <h3 className='info' style={{ color: 'white', padding: '1rem 0rem 2rem 2rem' }}> Adobe Illustrator • Adobe Animate • Procreate • Paint Tool Sai • 2019-2022
 
 </h3>
             <div className='portfolio_container'>
@@ -262,7 +262,7 @@ const PortfolioItem = () => {
                     <img src={design7} className='item_image' />
                     <h3> AUS Instagram Post </h3>
                     <div className='port-btn'>
-                        <a onClick={() => handleOpenModal(21)}> Zoom In</a>
+                        <a  onClick={() => handleOpenModal(21)}> Zoom In</a>
                     </div>
                 </div>
                 <div className='portfolio_card'>

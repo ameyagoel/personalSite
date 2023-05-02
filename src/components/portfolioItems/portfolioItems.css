@@ -2,26 +2,25 @@
     max-width: 75rem;
     margin: auto;
     margin-left: 2rem;
-    display: grid;
     align-content: center;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
     padding-bottom: 2rem;
-
+    display: grid;
+    grid-gap: 2.5rem;
+    
 }
 
 .portfolio_card {
     background: #606B99;
-    height: fit-content;
-    padding: 1.3rem 1rem;
-    border-radius: 2.5rem;
-    border-color: #fff;
+    padding: 1.3rem ;
+    border-radius: 2rem;
     border-style: thick;
-    box-shadow: 10px 10px 8px #2e385c;
+    /* box-shadow: 10px 10px 8px #2e385c; */
 }
 
 .portfolio_card img {
-    width: 90%;
+    border-radius: 2rem;
+    overflow: hidden;
+    max-height: 15rem;
 
 }
 
@@ -38,7 +37,7 @@
     color: #606B99;
     background-color: #fff;
     border-radius: 2rem;
-    width: 50%;
+    max-width: 7rem;
 }
 
 .port-btn a {
@@ -54,16 +53,7 @@
     color: #fff;
 }
 
-.item_image {
-    border-radius: 1.5rem;
-    overflow: hidden;
-}
 
-
-.item_image:hover {
-    border-radius: 1.5rem;
-    overflow: hidden;
-}
 
 .openWrapper {
     position: fixed;
@@ -114,4 +104,19 @@
     user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+}
+.info {
+    font: 1.7rem;
+}
+
+/*SMALL QUEURIES */
+@media screen and (max-width:600px) {
+    .ill {
+        margin-top: 8vh;
+        font-size: 5vh;
+    }
+    .info {
+        font-size: 1.7vh;
+    }
+    
 }

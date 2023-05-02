@@ -10,19 +10,18 @@
 }
 
 .project_card {
-    max-height: 38rem;
+    max-height: 37rem;
     background: #606B99;
     justify-items: center;
     padding: 1.3rem 1rem;
-    border-radius: 2.5rem;
+    border-radius: 1.5rem;
     border-color: #fff;
     border-style: thick;
-    box-shadow: 10px 10px 8px #2e385c;
     
 }
 
 .project_card .item_image{
-    width: 100%;
+    width: 90%;
     
 }
 

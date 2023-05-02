@@ -1,16 +1,3 @@
-.portfolio_container {
-
-    display: grid;
-
-    grid-template-columns:  repeat(3, 1fr);
-
-    gap: 2.5rem;
-
-
-
-
-}
-
 
 
 
@@ -70,4 +57,51 @@
 
     margin-top: 20%;
 
+}
+
+
+/*SMALL QUEURIES */
+@media screen and (max-width:600px) {
+    .land {
+        max-height: 40vh
+    }
+
+    .boxPort {
+        margin-top: 20vh;
+        max-width: 40vh;
+
+    }
+
+    .boxPort h2 {
+        padding-top: 3vh;
+        font-size: 4.5vh;
+        max-width: 35vh
+    }
+
+    .boxPort h3 {
+        font-size: 2vh;
+        max-width: 35vh;
+    }
+
+    .boxPort h1 {
+        font-size: 2vh;
+    }
+
+    .moon {
+        display: none;
+    }
+
+    .line {
+        max-width: 33vh;
+    }
+
+    .cloud1Img {
+        position: absolute;
+        left: 0%;
+        bottom: 50%;
+    }
+
+    .cloud2Img {
+        bottom: 50%;
+    }
 }

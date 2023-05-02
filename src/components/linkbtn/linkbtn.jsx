@@ -18,6 +18,7 @@ const Link = () => {
       <a className='art' href="/portfolio"></a>
       </Row>
       <Row>
+      <a className='git' href="https://github.com/ameyagoel"></a>
       </Row>
       </Col>
 
