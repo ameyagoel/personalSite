@@ -98,8 +98,29 @@
 /* media queries */
 /*MEDIA QUEURIES */
 @media screen and (max-width:1024px){
-    .socials{
-       height: 2vh;
+    
+    .socials {
+        margin-left: 0%;
+    }
+    .art {
+        height: 7vh;
+        margin-left: 0%;
+    }
+    .insta {
+        height: 7vh;
+        margin-left: 0%;
+    }
+    .linkd {
+        height: 7vh;
+        margin-left: 0%;
+    }
+    .email {
+        height: 7vh;
+        margin-left: 0%;
+    }
+    .git {
+        height: 7vh;
+        margin-left: 0%;
     }
 }
 

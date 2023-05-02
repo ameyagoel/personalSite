@@ -262,7 +262,7 @@ const PortfolioItem = () => {
                     <img src={design7} className='item_image' />
                     <h3> AUS Instagram Post </h3>
                     <div className='port-btn'>
-                        <a onClick={() => handleOpenModal(21)}> Zoom In</a>
+                        <a  onClick={() => handleOpenModal(21)}> Zoom In</a>
                     </div>
                 </div>
                 <div className='portfolio_card'>

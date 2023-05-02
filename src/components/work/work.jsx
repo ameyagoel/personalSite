@@ -16,7 +16,7 @@ import ScrollBar from '../scrollBar/scrollBar'
 
 const Work = () => {
   return (
-    <div id='1'  style={{minHeight:'100vh'}}>  
+    <div   style={{minHeight:'100vh'}}>  
     <Container style={{display:'flex', flexDirection:'row', marginLeft:'0%'}}>
   <LinkBtn /> 
   <Col style= {{marginLeft:'10%'}}>
