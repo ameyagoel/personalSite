@@ -12,6 +12,7 @@
 }
 
 .portfolio_card {
+    align-items: center;
     background: #606B99;
     padding: 1rem ;
     border-radius: 2rem;
@@ -20,6 +21,7 @@
 }
 
 .portfolio_card img {
+    margin: auto;
     border-radius: 2rem;
     overflow: hidden;
     max-height: 15rem;

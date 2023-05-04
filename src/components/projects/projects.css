@@ -20,11 +20,7 @@
     border-style: thick;
     
 }
-
-.project_card .item_image{
-    width: 90%;
-    
-}
+ 
 
 .project_card h3{
     padding-top: 1%;
@@ -63,26 +59,22 @@
     transform: scale(1.2);
 }
 
-.item_image {
+.item_image1 {
     margin: auto;
-    padding: auto;
     border-radius: 1.5rem;
     overflow: hidden;
 }
 
-.item_image img{
+.item_image1 img{
     
     margin: auto;
-    padding: auto;
     height: auto;
     width: 30rem;
     border-radius: 1.5rem;
-    overflow: hidden;
 }
 
-.item_image video{
+.item_image1 video{
     margin: auto;
-    padding: auto;
     height: auto;
     width: 30rem;
     border-radius: 1.5rem;
@@ -99,7 +91,7 @@
 
 .desc {
     font-size: 1rem;
-    width: '45%'
+    width: 45%;
 }
 
 /*Medium QUEURIES */
@@ -125,7 +117,7 @@
         
         
     }
-    .item_image img {
+    .item_image1 img {
         min-width: 30rem;
         max-height: 60rem;
     }
@@ -164,19 +156,33 @@
     .project_container {
         max-width: 35rem;
         display: grid;
-        gap: 1rem;
+        gap: 20px;
         margin-left: 1rem;
         margin-right: 1rem;
         grid-template-columns: repeat(1, 1fr);
         
         
     }
-    .item_image img {
-        min-width: 20rem;
-        max-height: 50rem;
+
+    .item_image1 img {
+        max-width: 25%;
+        padding: 1rem;
     }
+
+    /* .item_image1 img {
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+        border-radius: 1rem;
+     } */
+    
+
+  
+
+
     .project_card video {
         max-width: 20rem;
+        border-radius: 1rem;
         
     }
 
