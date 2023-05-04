@@ -16,7 +16,7 @@ import ScrollBar from '../scrollBar/scrollBar'
 
 const Portfolio = () => {
   return (
-    <div id='1' className='land' style={{height:'100vh',overflow: 'hidden'}}>  
+    <div id='1' className='land' style={{maxHeight:'100vh',overflow: 'hidden'}}>  
     <Container style={{display:'flex', flexDirection:'row', marginLeft:'0%'}}>
   <LinkBtn /> 
   <Col style= {{marginLeft:'10%'}}>

@@ -27,6 +27,7 @@
 
 .portfolio {
     background-image: var(--background-Alt);
+    background-size: cover;
 }
 
 html {
@@ -173,6 +174,7 @@ a:hover {
     cursor: pointer;
     border: none;
     box-shadow: 0 3px 10px;
+    z-index: 999;
 }
 
 .btn:hover {
@@ -186,8 +188,11 @@ img {
 }
 
 
+
+
+
 /*MEDIA QUEURIES */
-@media screen and (max-width:1024px){
+@media screen and (max-width:1200px){
     .container{
         width: var(--container-width-nd);
     }
@@ -201,7 +206,6 @@ img {
 @media screen and (max-width:600px){
     .container{
         width: var(--container-width-sm);
-        width: ;
     }
 
     section {

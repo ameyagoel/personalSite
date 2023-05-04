@@ -1,29 +1,23 @@
 .cloud1Img {
     height: auto;
     width: 30%;
-    position: absolute;
-    left: 0%;
-    bottom: 0%;
+    float: left;
+    z-index: 0;
+    margin-top: 3%;
 }
 
 .cloud2Img {
     height: auto;
     width: 30%;
-    position: absolute;
-    right: 0%;
-    bottom: 0%;
+    float: right;
+    z-index: 0;
+    margin-top: 3%;
 }
 
-.steam1 {
-
-    height: auto;
-    width: 30%;
-    position: absolute;
-    left: 0%;
-    top: 10%;
-    margin-top: 4.5%;
-
+.landingBtn {
+    z-index: 999;
 }
+
 
 .steam2 {
 
@@ -48,7 +42,7 @@
 /*MEDIA QUEURIES */
 @media screen and (max-width:1024px) {
     .land {
-        max-height: 65vh;
+        max-height: 70vh;
     }
 
     .boxLanding {
@@ -78,15 +72,10 @@
         max-width: 60vh;
     }
 
-    .cloud1Img {
-        position: absolute;
-        left: 0%;
-        bottom: 35%;
+    .landingBtn {
+        z-index: 999;
     }
 
-    .cloud2Img {
-        bottom: 35%;
-    }
 }
 
 /*SMALL QUEURIES */
@@ -122,12 +111,10 @@
     }
 
     .cloud1Img {
-        position: absolute;
-        left: 0%;
-        bottom: 50%;
+        margin-top: 0%;
     }
 
     .cloud2Img {
-        bottom: 50%;
+        margin-top: 0%;
     }
 }

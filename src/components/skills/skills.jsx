@@ -21,7 +21,7 @@ const Skills = () => {
           <Col xs={1.5} sm={1.5} lg={.6}>
             <img src={star} className='star' />
           </Col>
-          <Col xs={4.5}sm={3.5} lg={2} >
+          <Col xs={4.5}sm={3.5} lg={2.5} >
             <h5 className='header'> Skills </h5>
           </Col>
           <Col xs={1}sm={1} lg={.6} style={{ marginLeft: '1rem'}}>
