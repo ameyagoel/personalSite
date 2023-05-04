@@ -100,13 +100,12 @@
         max-width: 33vh;
     }
 
+    
     .cloud1Img {
-        position: absolute;
-        left: 0%;
-        bottom: 50%;
+        margin-top: 2%;
     }
 
     .cloud2Img {
-        bottom: 50%;
+        margin-top: 0%;
     }
 }

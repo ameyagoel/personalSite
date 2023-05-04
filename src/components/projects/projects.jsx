@@ -73,7 +73,7 @@ const ProjectItem = () => {
     }
 
     return (
-        <div id="1" >
+        <div id="1" style={{}}>
             <div style={{ display: 'flex' }}>
                 <h4 className='ill' style={{color: 'white', padding: ' 2rem 0rem 0rem 2rem' }}> Candy Rush </h4>
             </div>

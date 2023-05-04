@@ -13,7 +13,8 @@
     max-height: 37rem;
     background: #606B99;
     justify-items: center;
-    padding: 1.3rem 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
     border-radius: 1.5rem;
     border-color: #fff;
     border-style: thick;
@@ -124,11 +125,13 @@
         
         
     }
-    .project_card img {
-        max-width: 30rem;
+    .item_image img {
+        min-width: 30rem;
+        max-height: 60rem;
     }
     .project_card video {
         max-width: 30rem;
+        
     }
 
     /* .project_card .item_image{
@@ -168,11 +171,13 @@
         
         
     }
-    .project_card img {
-        max-width: 20rem;
+    .item_image img {
+        min-width: 20rem;
+        max-height: 50rem;
     }
     .project_card video {
         max-width: 20rem;
+        
     }
 
     /* .project_card .item_image{
