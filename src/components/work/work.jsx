@@ -16,7 +16,7 @@ import ScrollBar from '../scrollBar/scrollBar'
 
 const Work = () => {
   return (
-    <div   style={{minHeight:'100vh'}}>  
+    <div  className='work' style={{maxHeight:'100vh', marginBottom:'10%'}}>  
     <Container style={{display:'flex', flexDirection:'row', marginLeft:'0%'}}>
   <LinkBtn /> 
   <Col style= {{marginLeft:'10%'}}>
@@ -27,9 +27,9 @@ const Work = () => {
         background: "#fff",
         border: "none",
       }} />
-      <h3> Various Games and Projects I have worked on
+      <h3 className='game'> Various Games and Projects I have worked on
 </h3>
-<h3 style={{fontWeight:300, fontSize:'1.4rem '}}> Scroll For More ↓
+<h3 className='scrool' style={{fontWeight:300, fontSize:'1.4rem '}}> Scroll For More ↓
 </h3>
 
     </div>

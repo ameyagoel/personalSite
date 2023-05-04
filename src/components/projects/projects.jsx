@@ -75,7 +75,7 @@ const ProjectItem = () => {
     return (
         <div id="1" >
             <div style={{ display: 'flex' }}>
-                <h4 style={{ fontSize: '4rem', color: 'white', padding: ' 2rem 0rem 0rem 2rem' }}> Candy Rush </h4>
+                <h4 className='ill' style={{color: 'white', padding: ' 2rem 0rem 0rem 2rem' }}> Candy Rush </h4>
             </div>
             <hr className='line' style={{
                 height: '.1875rem', width: '40rem',
@@ -85,8 +85,8 @@ const ProjectItem = () => {
                 marginBottom: '0rem',
                 marginTop: '0rem',
             }} />
-            <h3 style={{ fontSize: '1.5rem', color: 'white', padding: '.6rem 0rem .2rem 2rem' }}> Mono Games • C# • Platformer </h3>
-            <h3 style={{ fontWeight: '400', width: '45%', fontSize: '1rem', color: 'white', padding: '0rem 0rem 1rem 2rem' }}>  A Game I made in a team of four in my first year of college
+            <h3 className='info' style={{  color: 'white', padding: '.6rem 0rem .2rem 2rem' }}> Mono Games • C# • Platformer </h3>
+            <h3 className='desc' style={{ fontWeight: '400',  color: 'white', padding: '0rem 0rem 1rem 2rem' }}>  A Game I made in a team of four in my first year of college
                 I was responsible for UI design, asset and environment design, as well as
                 coding the sprite rendering, user experience elements, NPC dialogue, and
                 level progression
@@ -117,8 +117,8 @@ const ProjectItem = () => {
 
 
             </div>
-            <div style={{ display: 'flex' }}>
-                <h4 id='2' style={{ fontSize: '4rem', color: 'white', padding: ' .6rem 0rem .2rem 2rem' }}> Latte's Cafe Dress UP</h4>
+            <div className='ill'  style={{ display: 'flex' }}>
+                <h4 id='2' className='ill' style={{  color: 'white', padding: ' .6rem 0rem .2rem 2rem' }}> Latte's Cafe Dress Up</h4>
             </div>
             <hr className='line' style={{
                 height: '.1875rem', width: '40rem',
@@ -126,9 +126,9 @@ const ProjectItem = () => {
                 border: "none",
                 marginLeft: '2rem'
             }} />
-            <h3 style={{ fontSize: '1.5rem', color: 'white', padding: '1rem 0rem 1rem 2rem' }}> Adobe Animate • HTML • Javascript </h3>
+            <h3 className='info' style={{ color: 'white', padding: '1rem 0rem 1rem 2rem' }}> Adobe Animate • HTML • Javascript </h3>
 
-            <h3 style={{ fontWeight: '400', width: '45%', fontSize: '1rem', color: 'white', padding: '0rem 0rem 1rem 2rem' }}>  A simple dress up game I made for fun with a character based off of a cafe latte. This was a solo project in which I did all the art, animation, UI, and coding
+            <h3 className='desc'  style={{ fontWeight: '400', color: 'white', padding: '0rem 0rem 1rem 2rem' }}>  A simple dress up game I made for fun with a character based off of a cafe latte. This was a solo project in which I did all the art, animation, UI, and coding
             </h3>
             <div className='project_container'>
                 <div className='project_card' >
@@ -141,7 +141,7 @@ const ProjectItem = () => {
                         <img onClick={prevSlideDress} src={prev} className='prev' />
                         <img onClick={nextSlideDress} src={next} className='next' />
                     </div>
-                    <Container style={{ justifyContent: 'center', display: 'flex', marginLeft: '1rem' }} >
+                    <Container style={{ justifyContent: 'center', display: 'flex', marginLeft: 'auto' }} >
                         <a style={{ textAlign: 'center' }} className='btn' href='https://lattes-dress-up.vercel.app/' > Play Game </a>
                     </Container>
                 </div>
@@ -158,7 +158,7 @@ const ProjectItem = () => {
             </div>
 
             <div style={{ display: 'flex' }}>
-                <h4 id='3' style={{ fontSize: '4rem', color: 'white', padding: ' .6rem 0rem .2rem 2rem' }}> justPeachy </h4>
+                <h4 id='3' className='ill' style={{  color: 'white', padding: ' .6rem 0rem .2rem 2rem' }}> justPeachy </h4>
             </div>
             <hr className='line' style={{
                 height: '.1875rem', width: '40rem',
@@ -166,9 +166,9 @@ const ProjectItem = () => {
                 border: "none",
                 marginLeft: '2rem'
             }} />
-            <h3 style={{ fontSize: '1.5rem', color: 'white', padding: '1rem 0rem 1rem 2rem' }}> React, co:here Api, Express.js </h3>
+            <h3 className='info' style={{  color: 'white', padding: '1rem 0rem 1rem 2rem' }}> React, co:here Api, Express.js </h3>
 
-            <h3 style={{ fontWeight: '400', width: '45%', fontSize: '1rem', color: 'white', padding: '0rem 0rem 1rem 2rem' }}> An app that examined the phenomenon of gender-based price discrimination by analyzing data pulled from the popular shopping website, Amazon.ca. The backend was made by using Co:here API in combonation with Amazon Pricing API to conduct semantic analysis white the frontend was prototyped in Figma and developed with React. 
+            <h3 className='desc' style={{ fontWeight: '400', color: 'white', padding: '0rem 0rem 1rem 2rem' }}> An app that examined the phenomenon of gender-based price discrimination by analyzing data pulled from the popular shopping website, Amazon.ca. The backend was made by using Co:here API in combonation with Amazon Pricing API to conduct semantic analysis white the frontend was prototyped in Figma and developed with React. 
             </h3>
             <div className='project_container'>
                 <div className='project_card' >
@@ -186,7 +186,7 @@ const ProjectItem = () => {
                         <img src={jp2} />
                     </div>
                     <h3> Resources on Pink Tax Screen </h3>
-                    <Container style={{ justifyContent: 'center', display: 'flex', marginLeft: '1rem' }} >
+                    <Container style={{ justifyContent: 'center', display: 'flex', marginLeft: 'auto' }} >
                         <a style={{ textAlign: 'center' }} className='btn' href='https://github.com/ameyagoel/cmdf2023' > Github </a>
                     </Container>
                 </div>

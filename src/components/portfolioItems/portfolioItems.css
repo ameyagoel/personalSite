@@ -5,13 +5,15 @@
     align-content: center;
     padding-bottom: 2rem;
     display: grid;
-    grid-gap: 2.5rem;
+    grid-template-columns: repeat(3,1fr);
+    gap:2rem ;
+    /* grid-template-columns: repeat(2,1fr); */
     
 }
 
 .portfolio_card {
     background: #606B99;
-    padding: 1.3rem ;
+    padding: 1rem ;
     border-radius: 2rem;
     border-style: thick;
     /* box-shadow: 10px 10px 8px #2e385c; */
@@ -23,6 +25,8 @@
     max-height: 15rem;
 
 }
+
+
 
 .portfolio_card h3 {
     padding-top: 1%;
@@ -109,14 +113,77 @@
     font: 1.7rem;
 }
 
+
+/*MEDIA QUEURIES */
+@media screen and (max-width:1024px) {
+    .ill {
+        margin-top: 0vh;
+        font-size: 10vh;
+    }
+    .info {
+        font-size: 3vh;
+        max-width: 90vh;
+    }
+    .portfolio_container {
+        max-width: 50rem;
+        margin: auto;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        align-content: center;
+        padding-bottom: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:2rem ;
+        /* grid-template-columns: repeat(2,1fr); */
+        
+    }
+    .portfolio_card img {
+        max-width: 15rem;
+    }
+    
+    .portfolio_card h3 {
+        padding-top: 1%;
+        font-size: 1rem;
+        margin: .3rem;
+        text-align: center;
+    }
+    
+    
+    
+}
+
 /*SMALL QUEURIES */
 @media screen and (max-width:600px) {
     .ill {
-        margin-top: 8vh;
+        margin-top: 2vh;
         font-size: 5vh;
     }
     .info {
         font-size: 1.7vh;
+    }
+    .portfolio_container {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        max-width: 50rem;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:20px ;
+        /* grid-template-columns: repeat(2,1fr); */
+        
+    }
+    .portfolio_card {
+        margin-bottom: 1rem;
+    }
+    .portfolio_card img {
+        max-width: 13rem;
+    }
+    
+    .portfolio_card h3 {
+        padding-top: 1%;
+        font-size: 1rem;
+        margin: .3rem;
+        text-align: center;
+        
     }
     
 }

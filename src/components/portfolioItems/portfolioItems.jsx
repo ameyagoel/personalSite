@@ -141,7 +141,7 @@ const PortfolioItem = () => {
             <h3 className='info' style={{color: 'white', padding: '1rem 0rem 2rem 2rem' }}> Paint Tool Sai • Procreate • 2019-2023 </h3>
             <div className='portfolio_container'>
                 <div className='portfolio_card'>
-                    <img src={port1} className='item_image' />
+                    <img className='item_image' src={port1}  />
                     <h3> City Graffiti </h3>
                     <div className='port-btn'>
                         <a onClick={() => handleOpenModal(0)}> Zoom In</a>
