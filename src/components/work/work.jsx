@@ -20,7 +20,7 @@ const Work = () => {
     <Container style={{display:'flex', flexDirection:'row', marginLeft:'0%'}}>
   <LinkBtn /> 
   <Col style= {{marginLeft:'10%'}}>
-    <div className="boxPort" style= {{width:'55rem'}} >
+    <div className="boxPort1" style= {{width:'55rem'}} >
       <h2>Projects</h2>
       <hr className='line' style={{
         height: '.1875rem', width: '40rem',
