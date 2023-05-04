@@ -95,7 +95,7 @@ const ProjectItem = () => {
                 <div className='project_card' >
 
 
-                    <div className='item_image'>
+                    <div className='item_image1'>
                         <img src={images[slideNumber].img} />
                     </div>
                     <div style={{ justifyContent: 'center', display: 'flex' }}>
@@ -108,7 +108,7 @@ const ProjectItem = () => {
                 <div className='project_card' >
 
 
-                    <div className='item_image' style={{ justifyContent: 'center', display: 'flex' }}>
+                    <div className='item_image1' style={{ justifyContent: 'center', display: 'flex' }}>
                         <video controls autostart autoPlay src={Video} type="video/mp4" />
 
                     </div>
@@ -134,7 +134,7 @@ const ProjectItem = () => {
                 <div className='project_card' >
 
 
-                    <div className='item_image'>
+                    <div className='item_image1'>
                         <img src={latteImages[dressNumber].img} />
                     </div>
                     <div style={{ justifyContent: 'center', display: 'flex' }}>
@@ -148,7 +148,7 @@ const ProjectItem = () => {
                 <div className='project_card' >
 
 
-                    <div className='item_image'>
+                    <div className='item_image1'>
                         <img src={loadingCoffee} />
                     </div>
                     <h3> Loading Screen </h3>
@@ -172,7 +172,7 @@ const ProjectItem = () => {
             </h3>
             <div className='project_container'>
                 <div className='project_card' >
-                    <div className='item_image'>
+                    <div className='item_image1'>
                         <img src={jp1} />
                     </div>
                     <h3> Search Screen </h3>
@@ -182,7 +182,7 @@ const ProjectItem = () => {
                 <div className='project_card' >
 
 
-                    <div className='item_image'>
+                    <div className='item_image1'>
                         <img src={jp2} />
                     </div>
                     <h3> Resources on Pink Tax Screen </h3>
