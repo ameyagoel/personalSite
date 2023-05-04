@@ -80,7 +80,7 @@ h2 {
     .skill {
         display: flex;
         flex-direction: column;
-        align-items:first baseline;
+        margin-bottom: 3rem;
         
     }
     .skills {
