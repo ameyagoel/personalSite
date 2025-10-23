@@ -171,13 +171,17 @@
 
     }
 
-
+    .des_fig{
+        height: 30rem;
+        width: 20rem;
+    }
     .desDesc {
         font-size: 1.1rem;
     }
 
     .desMain {
-        width: 30rem;
+                width: 20rem;
+
         padding-bottom: 1rem;
     }
 
@@ -227,14 +231,18 @@
         line-height: 3rem;
 
     }
-
+.des_model {
+        margin-bottom: 0rem;
+        width: 25rem;
+        object-fit: contain;
+    }
 
     .desDesc {
         font-size: 1.1rem;
     }
 
     .desMain {
-        width: 15rem;
+        width: 20rem;
         padding-bottom: 1rem;
     }
 
@@ -253,6 +261,9 @@
         flex-direction: column;
         border: none;
         padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
 
     }
 
@@ -280,5 +291,11 @@
 
     .returnbtn {
         display: none;
+    }
+
+    .des_fig{
+        height: 20rem;
+        width: 12rem;
+        align-self: center;
     }
 }

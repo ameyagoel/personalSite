@@ -96,7 +96,7 @@ const Design = () => {
         </div>
         {/* <hr className='divider'></hr> */}
       </div>
-      <div className='projects'>
+      <div className='designs'>
         {designs.map((design, i) => (
           <DesignItem
             key={i}

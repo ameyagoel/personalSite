@@ -26,11 +26,11 @@ export default function DesignCard({ design, onClose }) {
     let displayItem;
 
     if (figma) {
-        displayItem = <iframe style={{ border: "1px solid rgba(0, 0, 0, 0.1)", width:'20rem', height:'30rem'}}  src={figma} allowFullScreen></iframe>
+        displayItem = <iframe style={{ border: "1px solid rgba(0, 0, 0, 0.1)", }}  className='des_fig' src={figma} allowFullScreen></iframe>
     }
     else if (modelUrl) {
         
-         displayItem = <ModelViewer  className='des_img' model={modelUrl} color={modelColor}></ModelViewer>
+         displayItem = <ModelViewer  className='des_model' model={modelUrl} color={modelColor}></ModelViewer>
     }
     else {
         displayItem = <img className='des_img' src={design.images[slideNumber]} />;

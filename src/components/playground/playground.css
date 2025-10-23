@@ -6,13 +6,12 @@
 
     position: relative;
     min-height: 100vh;
-    height: 100%;
     align-items: center;
     display: flex;
     flex-direction: column;
     overflow: hidden;
     background-image: url(../../assets/wood.png);
-    background-repeat: none;
+    background-repeat: repeat;
     background-position: 0;
     background-size: cover;
     /* background-image: url(../../assets/home_screen_bg.png);
@@ -126,7 +125,13 @@
     
 }
 
+.playground {
+    overflow: visible;
+  min-height: 110vh;
+    background-image: url(../../assets/wood.png);
+    background-repeat: repeat;
 
+}
 
 }
 
@@ -152,6 +157,13 @@
   }
 
 
+.playground {
+    overflow: visible;
+  min-height: 110vh;
+    background-image: url(../../assets/wood.png);
+    background-repeat: repeat;
+
+}
 
 
 }
@@ -185,6 +197,14 @@
     width: 100%;
     padding-bottom: 4rem;
   }
+
+.playground {
+    overflow: visible;
+   min-height: 100vh;
+    background-image: url(../../assets/wood.png);
+    background-repeat: repeat;
+
+}
 
 
 }

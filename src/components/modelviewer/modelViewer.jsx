@@ -2,10 +2,11 @@ import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { Model } from "./model";
+import './modelViewer.css'
 
 export default function ModelViewer({ model, color }) {
   return (
-    <div style={{ width: "100%", height: "25rem" , width: "25rem"}}>
+    <div className="modelFrame" style={{ width: "100%"}}>
       <Canvas
   camera={{ position: [0, 0, 5], fov: 50 }}
   style={{ backgroundColor: color }}
