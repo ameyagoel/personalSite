@@ -1,0 +1,12 @@
+.modelFrame {
+    height: 25rem;
+    width: 25rem;
+}
+
+@media screen and (max-width:600px) {
+.modelFrame {
+    height: 15rem;
+    width: 15rem;
+}
+
+}

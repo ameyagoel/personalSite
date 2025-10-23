@@ -291,43 +291,44 @@ font-family: 'Lato';
 
     .projectContent {
         flex-direction: column;
+        align-items: center;
 
     }
 
     .projectCont {
         border: none;
         padding: 1rem;
+        align-items: center;
     }
 
-    .thumbnails {
-        display: none;
+    .visuals {
+        align-items: center;
     }
 
-    .proj {
-        inset: 6em 2em 2em 2em;
-
-
+    .thumbnail {
+        width: 3rem;
+        height: 4rem;
     }
 
     .item_image {
         margin-bottom: 0rem;
-        height: 15rem;
-        width: 20rem;
+        height: 10rem;
+        width: 15rem;
         object-fit: contain;
     }
 
     .projTitle {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         line-height: 2rem;
 
     }
 
     .projDetail {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .projDesc {
-        font-size: 1rem;
+        font-size: .8rem;
     }
 
     .projMain {
