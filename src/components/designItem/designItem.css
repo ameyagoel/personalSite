@@ -1,0 +1,69 @@
+.designContainer {
+    background-color: #EBE2E2;
+    min-height: 19rem;
+    width: 15rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25);
+    position: relative;
+    
+   
+
+}
+
+
+.overall .designContainer {
+    transition: transform .3s ease-in-out;
+     
+    cursor: pointer;
+}
+
+.overall .designContainer:hover {
+    transform: rotate(10deg);
+}
+
+
+
+.designThumb {
+
+    height: 13rem;
+    width: 14rem;
+    object-fit: contain;
+    background-repeat: none;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
+
+.design_title {
+    color: #4E2D18;
+    font-size: 1.2rem;
+    font-family: 'Lato';
+}
+
+
+.designInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.designCont {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.tape {
+
+    position: absolute;
+
+    object-fit: contain;
+    width: 10rem;
+    top: -1rem;
+    left: 20%;
+    overflow: hidden;
+
+}

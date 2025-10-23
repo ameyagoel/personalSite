@@ -1,0 +1,284 @@
+.card {
+    position: fixed;
+    inset: 4em 2em 2em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    transition: all .3s ease-out;
+   
+}
+
+.returnbtn {
+    fill: #4E2D18;
+    margin-left: -2rem;
+    cursor: pointer;
+    object-fit: contain;
+    height: 2rem;
+}
+
+.returnbtn:hover {
+    filter: brightness(0) saturate(100%) invert(85%) sepia(8%) saturate(858%);
+
+}
+
+
+.thumbnail {
+    width: 9rem;
+    height: 6rem;
+    opacity: .6;
+    object-fit: cover;
+    transition: opacity 0.3s;
+
+}
+
+.thumbnail:hover {
+    opacity: 1;
+}
+
+.thumbnails {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+}
+
+.visuals {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+
+
+.desTitle {
+    color: #4E2D18;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    font-family: 'Lato';
+    margin-bottom: .5rem;
+}
+
+.desDesc {
+    color: #4E2D18;
+    font-size: 1rem;
+}
+.desMain {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 20rem;
+    
+}
+
+.des_img {
+    height: 25rem;
+    width: 25rem;
+    object-fit: contain;
+
+}
+
+.designContent {
+
+     display: flex;
+    padding-top: .5rem;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+    width: fit-content;
+     border-radius: 15px;
+
+
+    /* code referenced: https://www.reddit.com/r/nextjs/comments/18t0gay/dotted_background_on_my_web_application/ */
+    --dot-bg: #EBE2E2;
+    --dot-color: #4E2D18;
+    --dot-size: 1px;
+    --dot-space: 50px;
+    background:
+        linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+        linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+        var(--dot-color);
+    border: .2rem solid #8B6341;
+}
+
+
+
+
+.thumbnail:hover {
+    opacity: 1;
+}
+
+.thumbnails {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+}
+
+.visuals {
+    display: flex;
+    flex-direction: row;
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    /* translucent black */
+    backdrop-filter: blur(2px);
+    /* optional, adds a subtle blur */
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+}
+
+
+
+
+/*MEDIA QUEURIES */
+@media screen and (max-width:1400px) {
+     .designContent {
+        flex-direction: row;
+        border: none;
+        padding: 2em;
+
+    }
+
+
+
+    .thumbnails {
+        flex-direction: row;
+    }
+
+
+    .thumbnail {
+        width: 8rem;
+        height: 7rem;
+    }
+
+    .visuals {
+        flex-direction: column;
+    }
+
+    .des_img {
+        margin-bottom: 0rem;
+        width: 30rem;
+        object-fit: contain;
+    }
+
+    .desTitle {
+        font-size: 2rem;
+        line-height: 3rem;
+
+    }
+
+
+    .desDesc {
+        font-size: 1.1rem;
+    }
+
+    .desMain {
+        width: 30rem;
+        padding-bottom: 1rem;
+    }
+
+    .returnbtn {
+        margin-left: -2rem;
+        cursor: pointer;
+        object-fit: contain;
+        height: 1.5rem;
+        /* COME BACK */
+    }
+}
+
+
+/* MEDIA QUERIES  */
+@media screen and (max-width:1024px) {
+    .designContent {
+        flex-direction: row;
+        border: none;
+        padding: 2em;
+
+    }
+
+
+
+    .thumbnails {
+        flex-direction: row;
+    }
+
+
+    .thumbnail {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .visuals {
+        flex-direction: column;
+    }
+
+    .des_img {
+        margin-bottom: 0rem;
+        width: 25rem;
+        object-fit: contain;
+    }
+
+    .desTitle {
+        font-size: 2rem;
+        line-height: 3rem;
+
+    }
+
+
+    .desDesc {
+        font-size: 1.1rem;
+    }
+
+    .desMain {
+        width: 15rem;
+        padding-bottom: 1rem;
+    }
+
+    .returnbtn {
+        margin-left: -2rem;
+        cursor: pointer;
+        object-fit: contain;
+        height: 1.5rem;
+        /* COME BACK */
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .designContent {
+        flex-direction: column;
+        border: none;
+        padding: 1rem;
+
+    }
+
+    .des_img {
+        margin-bottom: 0rem;
+        height: 15rem;
+        width: 20rem;
+        object-fit: contain;
+    }
+
+    .desTitle {
+        font-size: 1.5rem;
+        line-height: 2rem;
+
+    }
+
+
+    .desDesc {
+        font-size: 1rem;
+    }
+
+    .desMain {
+        width: fit-content;
+    }
+
+    .returnbtn {
+        display: none;
+    }
+}

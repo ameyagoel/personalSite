@@ -1,0 +1,190 @@
+.playground {
+    background-color: #42352c;
+    /* border: 1rem solid #C5A078; */
+    padding-bottom: 4rem;
+
+
+    position: relative;
+    min-height: 100vh;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-image: url(../../assets/wood.png);
+    background-repeat: none;
+    background-position: 0;
+    background-size: cover;
+    /* background-image: url(../../assets/home_screen_bg.png);
+    background-blend-mode:overlay; */
+
+
+}
+
+.playheaderRow {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 5rem;
+
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #E6D0B0;
+}
+
+.cup {
+
+    object-fit: contain;
+    width: 3rem;
+}
+
+.header {
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.descText {
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+
+.table-scene {
+    position: relative;
+    width: 90vw;
+    height: 50vh;
+
+}
+
+/* Elements positioned like in your mockup */
+.coffeecup {
+    position: absolute;
+    top: -4rem;
+    left: 0rem;
+    width: 15rem;
+    z-index: 9;
+}
+
+.pencil {
+    position: absolute;
+    right: 20rem;
+    bottom: -5rem;
+    width: 7rem;
+    
+}
+
+
+
+
+
+.table-scene .item {
+  transition: transform 0.3s ease;
+}
+
+.table-scene .item:hover {
+  transform: scale(1.05);
+}
+
+
+/*MEDIA QUEURIES */
+@media screen and (max-width:1400px) {
+    .playheaderRow {
+    margin-top: 15%;
+  }
+      
+.cup {
+    height: 2rem;
+    object-fit: contain;
+}
+
+ .table-scene {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  .coffeecup {
+     display: none;
+}
+
+.pencil {
+    display: none;
+    
+}
+
+
+
+}
+
+
+/* MEDIA QUERIES  */
+@media screen and (max-width:1024px) {
+  .playheaderRow {
+    margin-top: 18%;
+  }
+    
+.cup {
+    height: 2rem;
+    object-fit: contain;
+}
+ .table-scene {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    height: auto;
+    width: 100%;
+    padding-bottom: 4rem;
+  }
+
+
+
+
+}
+
+@media screen and (max-width:600px) {
+  .playheaderRow {
+    margin-top: 20%;
+    text-align: center;
+  }
+
+  
+.cup {
+    height: 1.5rem;
+    object-fit: contain;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.descText {
+    font-size: .8rem;
+}
+
+ .table-scene {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    height: auto;
+    width: 100%;
+    padding-bottom: 4rem;
+  }
+
+
+}

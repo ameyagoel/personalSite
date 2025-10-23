@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+.jobContent {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+
+    padding: 1rem;
+    overflow: hidden;
+    height: 8rem;
+    transition: height .5s ease-in-out;
+}
+
+.job:hover .jobContent {
+    height: 15rem;
+}
+
+.job:hover .vertical-line {
+    opacity: 1;
+    height: 60%;
+}
+
+.job {
+    min-width: 20rem;
+}
+
+
+.jobtitle {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.comp {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.year {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.context {
+    font-size: 1rem;
+
+}
+
+.job {
+    display: flex;
+    gap: 1rem;
+    justify-items: center;
+}
+
+.marker {
+    font-size: 2rem;
+
+}
+
+
+.vertical-line {
+    text-align: center;
+    border-left: 1px solid white;
+    height: 0px;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+    transition: height .5s ease-in-out;
+}
+
+.other {
+    align-items: flex-start;
+    justify-items: center;
+}
+
+
+
+/*MEDIA QUEURIES */
+@media screen and (max-width:1024px) {
+    .job {
+        width: 20rem !important;
+         min-width: 20rem;
+
+    }
+
+    .job:hover .jobContent {
+        height: 15rem;
+    }
+}
+
+
+/*MEDIA QUEURIES */
+@media screen and (max-width:1400px) {
+    .job {
+        width: 20rem !important;
+         min-width: 20rem;
+    }
+
+    .job:hover .jobContent {
+        height: 15rem;
+    }
+
+}
+
+/*SMALL QUEURIES */
+@media screen and (max-width:600px) {
+    .job {
+        width: 20rem !important;
+    }
+
+    .job:hover .jobContent {
+        height: 15rem;
+    }
+}
