@@ -1,38 +1,22 @@
 .git {
-    background-image:  url(../../assets/github.png);
-    width: 4rem;
-    height: 4rem;
+    background-image:  url(../../assets/github.svg);
+    width: 3rem;
+    height: 3rem;
     background-size: contain;
     background-color: none;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 1rem;
     margin-left: 1rem;
-    padding: .75rem ;
-    cursor: pointer;
-    transition: all 0ms ease-in;
-}
-
-.insta {
-    background-image:  url(../../assets/insta.png);
-    width: 4rem;
-    height: 4rem;
-    background-size: contain;
-    background-color: none;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 1rem;
-    margin-left: 1rem;
-
     padding: .75rem ;
     cursor: pointer;
     transition: all 0ms ease-in;
 }
 
 .linkd {
-    background-image:  url(../../assets/linkd.png);
-    width: 4rem;
-    height: 4rem;
+    background-image:  url(../../assets/linkd.svg);
+    width: 3rem;
+    height:3rem;
     background-size: contain;
     background-color: none;
     background-repeat: no-repeat;
@@ -46,9 +30,9 @@
 }
 
 .email {
-    background-image:  url(../../assets/email.png);
-    width: 4rem;
-    height: 4rem;
+    background-image:  url(../../assets/email.svg);
+    width: 3rem;
+    height: 3rem;
     background-size: contain;
     background-color: none;
     background-repeat: no-repeat;
@@ -59,36 +43,10 @@
     cursor: pointer;
     transition: all 0ms ease-in;
 }
-
-.about {
-    background-image:  url(../../assets/about.png);
-    width: 4rem;
-    height: 4rem;
-
-    background-size: contain;
-    background-color: none;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    padding: .75rem ;
-    cursor: pointer;
-    transition: all 0ms ease-in;
-}
-
-.art {
-    width: 4rem;
-    height: 4rem;
-    background-image:  url(../../assets/art.png);
-    background-size: contain;
-    background-color: none;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    padding: .75rem ;
-    cursor: pointer;
-    transition: all 0ms ease-in;
+.socials {
+    gap: 1.5rem;
+    justify-content: flex-end !important;
+    padding-right: 1rem;
 }
 
 .row {
@@ -98,61 +56,32 @@
 /* media queries */
 /*MEDIA QUEURIES */
 @media screen and (max-width:1024px){
-    
     .socials {
-        margin-left: 0%;
-        z-index: 900;
-    }
-    .art {
-        height: 7vh;
-        margin-left: 10%;
-        z-index: 900;
-    }
-    .insta {
-        height: 7vh;
-        margin-left: 10%;
-        z-index: 900;
+        justify-content: center !important;
     }
     .linkd {
-        height: 7vh;
-        margin-left: 10%;
-        z-index: 900;
+        height: 2.5rem;
     }
     .email {
-        height: 7vh;
-        margin-left: 10%;
-        z-index: 900;
+        height: 2.5rem;
     }
     .git {
-        height: 7vh;
-        margin-left: 10%;
-        z-index: 900;
+        height: 2.5rem;
     }
 }
 
 /*SMALL QUEURIES */
 @media screen and (max-width:600px){
     .socials {
-        margin-left: 0%;
-    }
-    .art {
-        height: 4vh;
-        margin-left: 0%;
-    }
-    .insta {
-        height: 4vh;
-        margin-left: 0%;
+        justify-content: center !important;
     }
     .linkd {
-        height: 4vh;
-        margin-left: 0%;
+        height: 7vh;
     }
     .email {
-        height: 4vh;
-        margin-left: 0%;
+        height: 7vh;
     }
     .git {
-        height: 4vh;
-        margin-left: 0%;
+        height: 7vh;
     }
 }

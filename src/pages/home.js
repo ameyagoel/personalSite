@@ -2,7 +2,7 @@ import React from 'react'
 import About from '../components/about/about.jsx'
 import Landing from '../components/landing/landing.jsx'
 import Navigation from '../components/navigation/navigation.jsx'
-import Skills from '../components/skills/skills.jsx'
+import Footer from '../components/footer/footer.jsx'
 
 
 
@@ -12,8 +12,8 @@ const Home = () => {
     <div>
         <Navigation/>
         <Landing/>
-        <About id="about"/>
-        <Skills/>
+        <About/>
+        <Footer/>
     </div>
   )
 }

@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 
 * {
@@ -13,20 +13,16 @@
 }
 
 :root {
-    --background-Image: url(../src/assets/bgMain.png);
-    --background-Alt: url(../src/assets/bgAlt.png);
+    --background-color: #112921;
     --color-white: #fff;
-    --color-blue: #606B99; 
+    --container-width-nd: 90%;
+    --container-width-sm: 75%;
 
 
-    --container-width-lg: 75%;
-    --container-width-nd: 85%;
-    --container-width-sm: 90%;
 
 }
 
 .portfolio {
-    background-image: var(--background-Alt);
     background-size: cover;
 }
 
@@ -41,9 +37,12 @@ html {
 }
 
 body {
-    font-family: 'Source Code Pro', monospace;
-    background-image: var(--background-Image);
+    font-family: 'Lato', sans-serif;
+    
+    background-color: var(--background-color);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
     color: var(--color-white);
     line-height: 1.7;
 
@@ -52,7 +51,7 @@ body {
 /* general styles */
 
 .container {
-    width: var(--container-width-lg);
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -60,41 +59,38 @@ body {
 h1 {
     font-size: 1.7rem;
     font-weight: 300;
-    font-family:'Source Code Pro';
+    font-family:'Playfair Display SC';
 }
 
 h2 {
     font-size: 6rem;
     font-weight: 700;
-    font-family:'Source Code Pro';
+    font-family:'Playfair Display SC';
 }
 
 h3 {
     font-size: 2rem;
     font-weight: 500;
-    font-family:'Source Code Pro';
+    font-family:'Lato';
 }
 
 
 h4 {
     font-size: 5rem;
     font-weight: 700;
-    color: var(--color-blue);
-    font-family:'Source Code Pro';
+    font-family:'Playfair Display';
 }
 
 h5 {
     font-size: 3.5rem;
     font-weight: 700;
-    color: var(--color-blue);
-    font-family:'Source Code Pro';
+    font-family:'Lato';
 }
 
 h6 {
     font-size: 1.2rem;
-    font-weight: 300;
-    color: var(--color-blue);
-    font-family:'Open Sans';
+    font-weight: 400;
+    font-family:'Lato';
 }
 
 
@@ -113,6 +109,7 @@ section {
 }
 
 a {
+   
     color: #fff;
 }
 
@@ -121,66 +118,7 @@ a:hover {
     color: var(--color-white);
 }
 
-.navbtntText {
-    
-    width: max-content;
-    background-color: none;
-    margin-top: 1rem;;
-    display: inline-block;
-    color: var(--color-white);
-    padding: .75rem ;
-    text-align: center;
-    font-size: 1.1rem;
-    font-weight: 400;
-    cursor: pointer;
-    border: none;
-    z-index: 4;
-}
 
-.navbtntText:hover {
-    color: var(--color-blue)
-}
-
-
-.navbtnImg {
-    width: max-content;
-    background-image:  url(../src/assets/homebtn.png);
-    background-size: cover;
-    background-color: none;
-    background-position: center;
-    display: inline-block;
-    color: var(--color-white);
-    margin-left: 1rem;
-    padding: .75rem ;
-    text-align: center;
-    font-size: 1.1rem;
-    font-weight: 400;
-    cursor: pointer;
-    border: none;
-    z-index: 4;
-}
-
-
-.btn {
-    width: max-content;
-    margin-right: 1rem;
-    background-color: white;
-    margin-top: 1rem;;
-    display: inline-block;
-    color: var(--color-blue);
-    padding: .75rem 1.2rem ;
-    border-radius: 3.25rem;
-    font-weight: 500;
-    cursor: pointer;
-    border: none;
-    box-shadow: 0 3px 10px;
-    z-index: 999;
-}
-
-.btn:hover {
-    background-color: var(--color-blue);
-    color: var(--color-white)
-}
 
 img {
     display: block;
@@ -197,9 +135,7 @@ img {
         width: var(--container-width-nd);
     }
 
-    section {
-        margin-top: 6rem;
-    }
+    
 }
 
 /*SMALL QUEURIES */
@@ -208,11 +144,4 @@ img {
         width: var(--container-width-sm);
     }
 
-    section {
-        margin-top: 2rem;
-    }
-    .btn {
-        font-size: 1.5vh;
-        width: max-content;
-    }
 }

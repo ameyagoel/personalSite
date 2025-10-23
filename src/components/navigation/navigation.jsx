@@ -1,18 +1,46 @@
 import React from 'react'
 import "./navigation.css"
-import {Link} from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 
 
 
 
 const navigation = () => {
   return (
-    <div style={{paddingLeft: '1rem', backgroundColor:' rgba(96, 107, 153, .4)', position:'fixed', width: '100vw', zIndex: 1}}>
-       <Link to="/"> <a className='navbtnImg'></a> </Link>
-       {/* <Link to="/about"> <a className='navbtntText'>| About |</a></Link> */}
-      <Link to="/portfolio">
-      <a  className='navbtntText'>| Portfolio |</a></Link>
-      <a href='/work' className='navbtntText'>Projects | </a>
+    <div className="navBG"> <NavLink
+      to="/"
+      end
+      className={({ isActive }) => 
+        isActive ? "navbtnHome active" : "navbtnHome"
+      }
+    ></NavLink>
+
+      <NavLink
+        to="/work"
+        className={({ isActive }) =>
+          isActive ? "navbtntText active" : "navbtntText"
+        }
+      >
+        ✦ Projects
+      </NavLink>
+
+      <NavLink
+        to="/design"
+        className={({ isActive }) =>
+          isActive ? "navbtntText active" : "navbtntText"
+        }
+      >
+        ✦ Design
+      </NavLink>
+
+      <NavLink
+        to="/playground"
+        className={({ isActive }) =>
+          isActive ? "navbtntText active" : "navbtntText"
+        }
+      >
+        ✦ Playground
+      </NavLink>
     </div>
   )
 }

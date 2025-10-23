@@ -1,123 +1,112 @@
-.cloud1Img {
-    height: auto;
-    width: 30%;
-    float: left;
-    z-index: 0;
-    margin-top: 3%;
+.work {
+    background-color: #42352c;
+    /* border: 1rem solid #C5A078; */
+    padding-bottom: 4rem;
+    
+
+    min-height: 100vh;
+    align-items: center;
+
+    /* code referenced: https://www.reddit.com/r/nextjs/comments/18t0gay/dotted_background_on_my_web_application/ */
+    --dot-bg: #402718;
+    --dot-color: #C5A078;
+    --dot-size: 1px;
+    --dot-space: 50px;
+    background:
+        linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+        linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+        var(--dot-color);
+    /* background-image: url(../../assets/home_screen_bg.png);
+    background-blend-mode:overlay; */
 }
 
-.cloud2Img {
-    height: auto;
-    width: 30%;
-    float: right;
-    z-index: 0;
-    margin-top: 3%;
-}
-
-.boxPort1 {
-
-    margin-top: 20%;
+.workheaderRow {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 4rem;
 
 }
 
+.title {
+    font-size: 3rem;
+    color:#E6D0B0;
+}
+
+.cup {
+    
+    object-fit: contain;
+}
 
 
-/* MEDIUM QUERIES */
+.divider {
+    width: 30rem;
+    border: 1px solid #D9C5A7;
+    border-radius: 10px;
+}
+
+.header {
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:2.5rem;
+}
+
+/*MEDIA QUEURIES */
+@media screen and (max-width:1400px) {
+    .workheaderRow {
+    margin-top: 10%;
+  }
+      
+.cup {
+    height: 2rem;
+    object-fit: contain;
+}
+
+}
+
+
+/* MEDIA QUERIES  */
 @media screen and (max-width:1024px) {
-    .land {
-        max-height: 65vh;
-    }
-
-    .boxPort1 {
-        margin-top: 15vh;
-        width: 60vh;
-
-    }
-
-    .boxPort1 h2 {
-        font-size: 10vh;
-    }
-
-    .boxPort1 h3 {
-        font-size: 3.4vh;
-        width: 60vh;
-    }
-
-    .boxPort1 h1 {
-        font-size: 3.5vh;
-    }
-
-    .moon {
-        max-height: 18vh;
-    }
-
-    .line {
-        max-width: 60vh;
-    }
-
-    .cloud1Img {
-        left: 0%;
-        bottom: 35%;
-    }
-
-    .cloud2Img {
-        bottom: 35%;
-    }
+  .workheaderRow {
+    margin-top: 15%;
+  }
+    
+.cup {
+    height: 2rem;
+    object-fit: contain;
 }
 
 
-/*SMALL QUEURIES */
+
+
+}
+
 @media screen and (max-width:600px) {
-    
+  .workheaderRow {
+    margin-top: 20%;
+  }
 
-    .work {
-        
-        max-height: 40vh;
-    }
+  
+.cup {
+    height: 1.5rem;
+    object-fit: contain;
+}
 
+.title {
+    font-size: 2rem;
+}
 
-    .boxPort1 {
-        margin-top: 10vh;
-        
-        max-width: 30vh;
-
-    }
-
-    .boxPort1 h2 {
-        padding-top: 3vh;
-        font-size: 4.5vh;
-        max-width: 35vh
-    }
-    
-    .scrool {
-        display: none;
-    }
-
-    .boxPort1 h3 {
-        font-size: 2vh;
-        max-width: 35vh;
-    }
-
-   
-
-    .boxPort1 h1 {
-        font-size: 2vh;
-    }
-
-    .moon {
-        display: none;
-    }
-
-    .line {
-        max-width: 33vh;
-    }
-
-   
-    .cloud1Img {
-        margin-top: 2%;
-    }
-
-    .cloud2Img {
-        margin-top: 0%;
-    }
 }

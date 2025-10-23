@@ -1,0 +1,13 @@
+.footer {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: .4rem;
+}
+
+.footer-bg {
+  width: 100%;
+  height: 15px; /* desired height */
+  background-image: url('../../assets/bottom.svg');
+  background-repeat: repeat-x;   /* repeat horizontally */
+  background-size: auto 15px;    /* scale height */
+}

@@ -1,0 +1,105 @@
+.design {
+    background-color: #42352c;
+    /* border: 1rem solid #C5A078; */
+    padding-bottom: 4rem;
+    
+
+    position: relative;
+    min-height: 100vh;
+    align-items: center;
+
+    /* code referenced: https://www.reddit.com/r/nextjs/comments/18t0gay/dotted_background_on_my_web_application/ */
+    --dot-bg: #402718;
+    --dot-color: #C5A078;
+    --dot-size: 1px;
+    --dot-space: 50px;
+    background:
+        linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+        linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+        var(--dot-color);
+    /* background-image: url(../../assets/home_screen_bg.png);
+    background-blend-mode:overlay; */
+}
+
+.desheaderRow {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 4rem;
+
+}
+
+.title {
+    font-size: 3rem;
+    color:#E6D0B0;
+}
+
+.cup {
+    
+    object-fit: contain;
+}
+.header {
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 1rem;
+}
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:2.5rem;
+}
+
+
+/*MEDIA QUEURIES */
+@media screen and (max-width:1400px) {
+    .desheaderRow {
+    margin-top: 10%;
+  }
+      
+.cup {
+    height: 2rem;
+    object-fit: contain;
+}
+
+}
+
+
+/* MEDIA QUERIES  */
+@media screen and (max-width:1024px) {
+  .desheaderRow {
+    margin-top: 15%;
+  }
+    
+.cup {
+    height: 2rem;
+    object-fit: contain;
+}
+
+
+
+
+}
+
+@media screen and (max-width:600px) {
+  .desheaderRow {
+    margin-top: 20%;
+  }
+
+  
+.cup {
+    height: 1.5rem;
+    object-fit: contain;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+}
