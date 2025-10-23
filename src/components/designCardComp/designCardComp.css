@@ -6,7 +6,7 @@
     justify-content: center;
     z-index: 10;
     transition: all .3s ease-out;
-   
+
 }
 
 .returnbtn {
@@ -62,12 +62,13 @@
     color: #4E2D18;
     font-size: 1rem;
 }
+
 .desMain {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 20rem;
-    
+
 }
 
 .des_img {
@@ -79,13 +80,13 @@
 
 .designContent {
 
-     display: flex;
+    display: flex;
     padding-top: .5rem;
     align-items: flex-start;
     gap: 2rem;
     padding: 2rem;
     width: fit-content;
-     border-radius: 15px;
+    border-radius: 15px;
 
 
     /* code referenced: https://www.reddit.com/r/nextjs/comments/18t0gay/dotted_background_on_my_web_application/ */
@@ -134,9 +135,15 @@
 
 
 
+.des_fig {
+    height: 30rem;
+    width: 20rem;
+}
+
+
 /*MEDIA QUEURIES */
 @media screen and (max-width:1400px) {
-     .designContent {
+    .designContent {
         flex-direction: row;
         border: none;
         padding: 2em;
@@ -171,16 +178,17 @@
 
     }
 
-    .des_fig{
+    .des_fig {
         height: 30rem;
         width: 20rem;
     }
+
     .desDesc {
         font-size: 1.1rem;
     }
 
     .desMain {
-                width: 20rem;
+        width: 20rem;
 
         padding-bottom: 1rem;
     }
@@ -230,11 +238,6 @@
         font-size: 2rem;
         line-height: 3rem;
 
-    }
-.des_model {
-        margin-bottom: 0rem;
-        width: 25rem;
-        object-fit: contain;
     }
 
     .desDesc {
@@ -293,7 +296,7 @@
         display: none;
     }
 
-    .des_fig{
+    .des_fig {
         height: 20rem;
         width: 12rem;
         align-self: center;
