@@ -30,7 +30,7 @@ export default function DesignCard({ design, onClose }) {
     }
     else if (modelUrl) {
         
-         displayItem = <ModelViewer  className='des_model' model={modelUrl} color={modelColor}></ModelViewer>
+         displayItem = <ModelViewer  model={modelUrl} color={modelColor}></ModelViewer>
     }
     else {
         displayItem = <img className='des_img' src={design.images[slideNumber]} />;

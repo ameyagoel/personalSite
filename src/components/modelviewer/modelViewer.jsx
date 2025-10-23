@@ -6,7 +6,7 @@ import './modelViewer.css'
 
 export default function ModelViewer({ model, color }) {
   return (
-    <div className="modelFrame" style={{ width: "100%"}}>
+    <div className="modelFrame" >
       <Canvas
   camera={{ position: [0, 0, 5], fov: 50 }}
   style={{ backgroundColor: color }}
