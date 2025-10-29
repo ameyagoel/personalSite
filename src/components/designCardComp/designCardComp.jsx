@@ -42,16 +42,16 @@ export default function DesignCard({ design, onClose }) {
             <div className='designContent'>
 
 
-                <div className='visuals'>
+                <div className='desvisuals'>
 
                     {(images > 1) &&
-                        <div className='thumbnails'>
+                        <div className='desthumbnails'>
                             {design.images.map((imageObj, i) => (
                                 <img
                                     key={i}
                                     src={imageObj}
                                     onClick={() => changeImage(i)}
-                                    className='thumbnail'
+                                    className='desthumbnail'
                                 />
                             ))}
                         </div>

@@ -47,7 +47,7 @@ const Landing = () => {
     </div>
 
     {showContact && (
-      <div className="overlay">
+      <div className="contact-overlay">
         <Contact />
         <button className="close-btn" onClick={() => setShowContact(false)}>✕</button>
       </div>
