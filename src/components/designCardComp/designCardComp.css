@@ -23,32 +23,6 @@
 }
 
 
-.desthumbnail {
-    width: 9rem;
-    height: 6rem;
-    opacity: .6;
-    object-fit: cover;
-    transition: opacity 0.3s;
-
-}
-
-.desthumbnail:hover {
-    opacity: 1;
-}
-
-.desthumbnails {
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-
-}
-
-.desvisuals {
-    display: flex;
-    flex-direction: row;
-    gap: .5rem;
-}
-
 
 .desTitle {
     color: #4E2D18;
@@ -103,21 +77,30 @@
 
 
 
+.desthumbnail {
+    width: 9rem;
+    height: 6rem;
+    opacity: .6;
+    object-fit: cover;
+    transition: opacity 0.3s;
 
-.thumbnail:hover {
+}
+
+.desthumbnail:hover {
     opacity: 1;
 }
 
-.thumbnails {
+.desthumbnails {
     display: flex;
     flex-direction: column;
     gap: .5rem;
 
 }
 
-.visuals {
+.desvisuals {
     display: flex;
     flex-direction: row;
+    gap: .5rem;
 }
 
 .overlay {
@@ -152,23 +135,10 @@
 
 
 
-    .thumbnails {
-        flex-direction: row;
-    }
-
-
-    .thumbnail {
-        width: 8rem;
-        height: 7rem;
-    }
-
-    .visuals {
-        flex-direction: column;
-    }
-
     .des_img {
         margin-bottom: 0rem;
-        width: 30rem;
+        width: 32rem;
+
         object-fit: contain;
     }
 
@@ -200,6 +170,20 @@
         height: 1.5rem;
         /* COME BACK */
     }
+
+    .desthumbnails {
+        flex-direction: row;
+    }
+
+
+    .desthumbnail {
+        width: 8rem;
+        height: 7rem;
+    }
+
+    .desvisuals {
+        flex-direction: column;
+    }
 }
 
 
@@ -214,23 +198,23 @@
 
 
 
-    .thumbnails {
+    
+.desthumbnails {
         flex-direction: row;
     }
-
-
-    .thumbnail {
-        width: 4rem;
+    .desthumbnail {
+        width: 5rem;
         height: 4rem;
     }
 
-    .visuals {
+    .desvisuals {
         flex-direction: column;
     }
 
     .des_img {
         margin-bottom: 0rem;
-        width: 25rem;
+        height: 18rem;
+        width: 20rem;
         object-fit: contain;
     }
 
@@ -260,6 +244,15 @@
 
 @media screen and (max-width:600px) {
 
+     .desvisuals {
+        align-items: center;
+    }
+
+    .desthumbnail {
+        width: 4rem;
+        height: 4rem;
+    }
+
     .designContent {
         flex-direction: column;
         border: none;
@@ -272,7 +265,7 @@
 
     .des_img {
         margin-bottom: 0rem;
-        height: 15rem;
+        height: 12rem;
         width: 20rem;
         object-fit: contain;
     }

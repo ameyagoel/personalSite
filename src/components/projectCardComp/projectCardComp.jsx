@@ -40,8 +40,8 @@ export default function ProjectPage({ proj, onClose }) {
 
                 <div className='projectContent'>
 
-                    <div className='visuals'>
-                        <div className='thumbnails'>
+                    <div className='proj_visuals'>
+                        <div className='proj_thumbnails'>
                             {proj.images.map((imageObj, i) => (
                                 <img
                                     key={i}
