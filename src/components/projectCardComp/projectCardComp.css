@@ -305,15 +305,15 @@ font-family: 'Lato';
         align-items: center;
     }
 
-    .thumbnail {
-        width: 3rem;
+    .proj_thumbnail {
+        width: 4rem;
         height: 4rem;
     }
 
     .item_image {
         margin-bottom: 0rem;
         height: 10rem;
-        width: 15rem;
+        width: 20rem;
         object-fit: contain;
     }
 

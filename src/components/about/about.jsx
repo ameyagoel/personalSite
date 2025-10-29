@@ -33,19 +33,19 @@ const About = () => (
           title={"Front-End Developer"}
           company={"Culture Foundry Studios"}
           year={"June 2024 - April 2025"}
-          context={"Developed interactive features and assets directly within Unreal Engine to support gameplay and design goals. "}
+          context={"Redesigned web interfaces for a First Nations language app to improve accessibility and performance using Blazor and CSS."}
         > </Job>
         <Job
           title={"UX Designer"}
           company={"UBC Emerging Media Lab"}
           year={"June 2024 - Aug 2024"}
-          context={"Developed interactive features and assets directly within Unreal Engine to support gameplay and design goals. "}
+          context={"Created prototypes, wireframes, 3D models, and mockups to enhance usability and accessibility in VR projects."}
         > </Job>
         <Job
           title={"Web Designer"}
           company={"Cities in Motion Lab"}
           year={"Nov 2023 - June 2024"}
-          context={"Developed interactive features and assets directly within Unreal Engine to support gameplay and design goals. "}
+          context={"Designed cohesive web interfaces and branding materials in Figma and Adobe Suite to unify the lab’s digital presence."}
         > </Job>
       </Container>
 

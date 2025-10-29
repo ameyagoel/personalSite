@@ -99,9 +99,9 @@ const Playground = () => {
       // width: "20rem",
       // height:  "20rem",
       bgFrame: polaroid,
-      imgWidth: "11rem",
+      imgWidth: "12rem",
       imgHeight: "11rem",
-      imgPos: { top: "3rem", left: "5rem" },
+      imgPos: { top: "3rem", left: "4rem" },
     },
     {
       title: "Curtis the Cat",
@@ -133,9 +133,9 @@ const Playground = () => {
           <h4 className="title">Playground</h4>
           <img className="cup" src={cup} alt="cup" />
         </div>
-        <h6 className="descText">
-          A cozy corner for experiments, sketches, and little things I’ve learned and brewed up between projects.
-        </h6>
+        <h3 className="descText">
+          A corner for experiments, sketches, and little things I’ve learned and brewed up between projects.
+        </h3>
       </div>
 
       {/* Desk Scene */}
