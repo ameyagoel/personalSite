@@ -9,7 +9,7 @@
   position: absolute;
   inset: 0;
   overflow: hidden;
-  z-index: 1;
+  z-index: 0;
 }
 
 .drop {
@@ -34,7 +34,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  z-index: 997;
+  z-index: 5;
   margin-top: -4rem;
 }
 
@@ -45,7 +45,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
-  z-index: 2;
+  z-index: 1;
 }
 
 
@@ -62,7 +62,7 @@
 }
 
 .landingBtn {
-  z-index: 900;
+  z-index: 10;
 }
 
 .boxLanding {
@@ -79,14 +79,14 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(25, 15, 10, 0.75);
-  backdrop-filter: blur(6px);
+  background: rgba(25, 15, 10, 0.85);
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 999; /* increase from 999 to 9999 */
-  animation: fadeIn 0.3s ease;
+  z-index: 999 !important;  
+  isolation: isolate;
 }
+
 
 
 .close-btn {

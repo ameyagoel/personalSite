@@ -15,7 +15,6 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert("☕ Message sent! Thanks for stopping by the café!");
     setFormData({ name: '', email: '', message: '' });
   };
 
