@@ -1,24 +1,23 @@
 .playground {
-    background-color: #42352c;
-    /* border: 1rem solid #C5A078; */
-    padding-bottom: 4rem;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  background: 
+    /* 1️⃣ Top vignette gradient — night window glow */
+   
 
+    /* 2️⃣ Wooden desk texture image at bottom */
+    url('../../assets/wood.png');
 
-    position: relative;
-    min-height: 100vh;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    background-image: url(../../assets/wood.png);
-    background-repeat: repeat;
-    background-position: 0;
-    background-size: cover;
-    /* background-image: url(../../assets/home_screen_bg.png);
-    background-blend-mode:overlay; */
-
-
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  color: #E6D0B0;
 }
+
 
 .playheaderRow {
     display: flex;
@@ -40,6 +39,7 @@
 
     object-fit: contain;
     width: 3rem;
+    
 }
 
 .header {
@@ -48,12 +48,15 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .descText {
     font-size: 1rem;
     text-align: center;
+    color: white;
+    width: 35vw;
+    font-weight: 400;
 }
 
 
@@ -72,6 +75,8 @@
     left: 0rem;
     width: 15rem;
     z-index: 9;
+        filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
+
 }
 
 .pencil {
@@ -80,6 +85,8 @@
     bottom: -5rem;
     width: 7rem;
     
+        filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
+
 }
 
 
@@ -170,7 +177,7 @@
 
 @media screen and (max-width:600px) {
   .playheaderRow {
-    margin-top: 20%;
+    margin-top: 25%;
     text-align: center;
   }
 
@@ -186,6 +193,7 @@
 
 .descText {
     font-size: .8rem;
+    width: 70vw;
 }
 
  .table-scene {

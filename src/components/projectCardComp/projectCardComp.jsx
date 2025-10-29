@@ -47,7 +47,7 @@ export default function ProjectPage({ proj, onClose }) {
                                     key={i}
                                     src={imageObj.img}  
                                     onClick={() => changeImage(i)}
-                                    className='thumbnail'
+                                    className='proj_thumbnail'
                                 />
                             ))}
                         </div>

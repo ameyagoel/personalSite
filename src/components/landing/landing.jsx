@@ -1,11 +1,13 @@
-import React, { useEffect } from 'react';
+import React, { useEffect , useState} from 'react';
 import { Container } from 'react-grid-system';
 import "./landing.css";
 
 import Button from '../buttons/buttons';
 import LinkBtn from '../linkbtn/linkbtn';
+import Contact from '../contact/contact';
 
 const Landing = () => {
+  const [showContact, setShowContact] = useState(false);
   //code referenced: https://codepen.io/arickle/pen/XKjMZY
   useEffect(() => {
     const rainContainer = document.querySelector('.rain');
@@ -22,6 +24,7 @@ const Landing = () => {
   }, []);
 
   return (
+    <>
     <div id="landing">
 
       <div className="rain"></div>
@@ -34,13 +37,22 @@ const Landing = () => {
         <div className="boxLanding" style={{ marginLeft: 'auto' }}>
           <h2>Ameya Goel</h2>
           <h3>design • development • ui/ux • illustration</h3>
-          <Button className="landingBtn" />
+          <Button onContactClick={() => setShowContact(true)} className="landingBtn" />
           <LinkBtn />
            
         </div>
       </Container>
         <h6 className='scroll'>↓ Scroll for More</h6>
+
     </div>
+
+    {showContact && (
+      <div className="overlay">
+        <Contact />
+        <button className="close-btn" onClick={() => setShowContact(false)}>✕</button>
+      </div>
+    )}
+    </>
   );
 };
 
