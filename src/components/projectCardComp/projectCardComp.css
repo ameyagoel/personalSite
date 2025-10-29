@@ -32,7 +32,7 @@
     color: #4E2D18;
     font-size: 3rem;
     line-height: 4rem;
-font-family: 'Lato';
+    font-family: 'Lato';
 }
 
 .projDesc {
@@ -98,7 +98,7 @@ font-family: 'Lato';
     width: 2.5rem;
 }
 
-.thumbnail {
+.proj_thumbnail {
     width: 9rem;
     height: 6rem;
     opacity: .6;
@@ -107,7 +107,7 @@ font-family: 'Lato';
 
 }
 
-.thumbnail:hover {
+.proj_thumbnail:hover {
     opacity: 1;
 }
 
@@ -128,9 +128,7 @@ font-family: 'Lato';
     position: fixed;
     inset: 0;
     background: rgba(0, 0, 0, 0.4);
-    /* translucent black */
     backdrop-filter: blur(2px);
-    /* optional, adds a subtle blur */
     opacity: 1;
     transition: opacity 0.3s ease;
     z-index: -1;

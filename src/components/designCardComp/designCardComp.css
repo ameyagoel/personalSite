@@ -23,7 +23,7 @@
 }
 
 
-.thumbnail {
+.desthumbnail {
     width: 9rem;
     height: 6rem;
     opacity: .6;
@@ -32,18 +32,18 @@
 
 }
 
-.thumbnail:hover {
+.desthumbnail:hover {
     opacity: 1;
 }
 
-.thumbnails {
+.desthumbnails {
     display: flex;
     flex-direction: column;
     gap: .5rem;
 
 }
 
-.visuals {
+.desvisuals {
     display: flex;
     flex-direction: row;
     gap: .5rem;
