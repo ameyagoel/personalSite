@@ -111,14 +111,14 @@
     opacity: 1;
 }
 
-.thumbnails {
+.proj_thumbnails {
     display: flex;
     flex-direction: column;
     gap: .5rem;
 
 }
 
-.visuals {
+.proj_visuals {
     display: flex;
     flex-direction: row;
     gap: .5rem;
@@ -167,7 +167,7 @@
         padding: 1rem;
     }
 
-    .thumbnails {
+    .proj_thumbnails {
         flex-direction: row;
     }
 
@@ -176,12 +176,12 @@
 
     }
 
-    .thumbnail {
+    .proj_thumbnail {
         width: 8rem;
         height: 7rem;
     }
 
-    .visuals {
+    .proj_visuals {
         flex-direction: column;
     }
 
@@ -232,7 +232,7 @@
         padding: 1rem;
     }
 
-    .thumbnails {
+.proj_thumbnails {
         flex-direction: row;
     }
 
@@ -241,12 +241,12 @@
 
     }
 
-    .thumbnail {
+    .proj_thumbnail {
         width: 5rem;
         height: 4rem;
     }
 
-    .visuals {
+    .proj_visuals {
         flex-direction: column;
     }
 
@@ -299,7 +299,7 @@
         align-items: center;
     }
 
-    .visuals {
+    .proj_visuals {
         align-items: center;
     }
 
