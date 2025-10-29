@@ -1,0 +1,89 @@
+.contact {
+    background-color: #CBB99D;
+    border-radius: 10px;
+    padding: 1.5rem;
+
+}
+
+.contact-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+    gap: .5rem;
+
+}
+
+.contact-header h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display';
+    color: #4E2D18;
+}
+
+.contact-cup {
+    fill: #4E2D18;
+    filter: brightness(0) saturate(100%) invert(17%) sepia(65%) saturate(473%) hue-rotate(341deg) brightness(94%) contrast(96%);
+    object-fit: contain;
+    height: 1.5rem;
+}
+
+.inputs form {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.inputs label {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: start;
+    align-self: flex-start;
+    color: #4E2D18;
+
+}
+
+.inputs input {
+    background: #EBE2E2;
+    border: 3px solid #8B6341;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    align-self: flex-start;
+    padding: .3rem;
+    width: 20rem;
+
+}
+
+.inputs textarea {
+    background: #EBE2E2;
+    border: 3px solid #8B6341;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    align-self: flex-start;
+    padding: .3rem;
+    width: 20rem;
+}
+
+
+.submitBtn {
+
+
+    background: #4E2D18;
+    border-radius: 100px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+
+    align-items: center;
+    justify-self: center;
+    color: #FFFFFF;
+    padding: 1rem;
+    width: fit-content;
+
+
+}
